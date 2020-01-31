@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='utf-8'?>
+<q:quakeml xmlns:q="http://quakeml.org/xmlns/quakeml/1.2" xmlns="http://quakeml.org/xmlns/bed/1.2">
+  <eventParameters publicID="smi:local/3ae1e6aa-35f8-4e00-8036-7cd3a38eac89">
+    <event publicID="quakeml:eu.emsc/event/20120404_0000038">
+      <preferredOriginID>quakeml:eu.emsc/origin/rts/261017/782476</preferredOriginID>
+      <preferredMagnitudeID>quakeml:eu.emsc/NetworkMagnitude/rts/261017/782476/796628</preferredMagnitudeID>
+      <type>not reported</type>
+      <description>
+        <text>EASTERN TURKEY</text>
+        <type>Flinn-Engdahl region</type>
+      </description>
+      <creationInfo>
+        <agencyURI>smi:smi-registry/organization/EMSC</agencyURI>
+        <authorURI>smi:smi-registry/organization/EMSC</authorURI>
+        <creationTime>2012-04-04T16:40:50.000000Z</creationTime>
+        <version>1.0.1</version>
+      </creationInfo>
+      <origin publicID="quakeml:eu.emsc/origin/rts/261017/782476">
+        <time>
+          <value>2012-04-04T14:18:37.000000Z</value>
+          <uncertainty>0.0</uncertainty>
+        </time>
+        <latitude>
+          <value>39.342</value>
+        </latitude>
+        <longitude>
+          <value>41.044</value>
+        </longitude>
+        <depth>
+          <value>14400.0</value>
+          <uncertainty>0.0</uncertainty>
+        </depth>
+        <depthType>from location</depthType>
+        <methodID>smi:eu.emsc-csem/origin_method/NA</methodID>
+        <quality>
+          <usedStationCount>46</usedStationCount>
+          <standardError>0.0</standardError>
+          <azimuthalGap>27.0</azimuthalGap>
+          <minimumDistance>0.27</minimumDistance>
+          <maximumDistance>2.7</maximumDistance>
+        </quality>
+        <evaluationMode>manual</evaluationMode>
+        <creationInfo>
+          <agencyURI>smi:smi-registry/organization/EMSC</agencyURI>
+          <authorURI>smi:smi-registry/organization/DDA</authorURI>
+        </creationInfo>
+        <originUncertainty>
+          <minHorizontalUncertainty>0.0</minHorizontalUncertainty>
+          <maxHorizontalUncertainty>0.0</maxHorizontalUncertainty>
+          <azimuthMaxHorizontalUncertainty>0.0</azimuthMaxHorizontalUncertainty>
+        </originUncertainty>
+      </origin>
+      <magnitude publicID="quakeml:eu.emsc/NetworkMagnitude/rts/261017/782476/796628">
+        <mag>
+          <value>4.3</value>
+          <uncertainty>0.0</uncertainty>
+        </mag>
+        <type>ML</type>
+        <originID>quakeml:eu.emsc/origin/rts/261017/782476</originID>
+        <stationCount>0</stationCount>
+        <creationInfo>
+          <agencyURI>smi:smi-registry/organization/EMSC</agencyURI>
+          <authorURI>smi:smi-registry/organization/DDA</authorURI>
+        </creationInfo>
+      </magnitude>
+    </event>
+  </eventParameters>
+</q:quakeml>

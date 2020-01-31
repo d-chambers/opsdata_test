@@ -1,0 +1,1539 @@
+<?xml version='1.0' encoding='utf-8'?>
+<q:quakeml xmlns:q="http://quakeml.org/xmlns/quakeml/1.2" xmlns="http://quakeml.org/xmlns/bed/1.2">
+  <eventParameters publicID="smi:local/a414cdb0-b4eb-4be8-8a0a-fd7cb323083a">
+    <event publicID="smi:local/248828">
+      <preferredOriginID>smi:local/404311</preferredOriginID>
+      <description>
+        <text>LR</text>
+      </description>
+      <creationInfo>
+        <agencyID>NIOSH</agencyID>
+        <author>DC</author>
+        <creationTime>2018-10-10T20:26:49.642650Z</creationTime>
+      </creationInfo>
+      <origin publicID="smi:local/404310">
+        <time>
+          <value>2007-08-06T01:44:48.608600Z</value>
+        </time>
+        <latitude>
+          <value>39.4422</value>
+        </latitude>
+        <longitude>
+          <value>-111.1979</value>
+        </longitude>
+        <depth>
+          <value>12889.0</value>
+        </depth>
+        <quality>
+          <standardError>0.3637</standardError>
+        </quality>
+        <arrival publicID="smi:local/6a71667a-1d56-4420-842f-449c35ee2f62">
+          <pickID>smi:local/21690511</pickID>
+          <phase>P</phase>
+          <azimuth>84.88</azimuth>
+          <distance>0.355</distance>
+          <timeResidual>-0.092</timeResidual>
+          <timeWeight>-1.0</timeWeight>
+        </arrival>
+        <arrival publicID="smi:local/2038b04e-d5bd-42a8-88ed-cd01f3ee983a">
+          <pickID>smi:local/21690512</pickID>
+          <phase>P</phase>
+          <azimuth>295.27</azimuth>
+          <distance>0.39299999999999996</distance>
+          <timeResidual>-0.1</timeResidual>
+          <timeWeight>-1.0</timeWeight>
+        </arrival>
+        <arrival publicID="smi:local/c856e454-cc2c-4a01-9d55-7a1d96cab052">
+          <pickID>smi:local/21690513</pickID>
+          <phase>P</phase>
+          <azimuth>177.77</azimuth>
+          <distance>0.525</distance>
+          <timeResidual>-0.146</timeResidual>
+          <timeWeight>-1.0</timeWeight>
+        </arrival>
+        <arrival publicID="smi:local/edafe686-55d3-4c1c-bfec-aaccda71cf9d">
+          <pickID>smi:local/21690514</pickID>
+          <phase>P</phase>
+          <azimuth>122.21</azimuth>
+          <distance>0.618</distance>
+          <timeResidual>-0.019</timeResidual>
+          <timeWeight>-1.0</timeWeight>
+        </arrival>
+        <arrival publicID="smi:local/b2d4defe-b6a0-4989-bf59-705591a4e846">
+          <pickID>smi:local/21690515</pickID>
+          <phase>S</phase>
+          <azimuth>84.88</azimuth>
+          <distance>0.355</distance>
+          <timeResidual>0.35700000000000004</timeResidual>
+          <timeWeight>-1.0</timeWeight>
+        </arrival>
+        <arrival publicID="smi:local/476d69d8-5739-412f-912d-184827b950e3">
+          <pickID>smi:local/21690516</pickID>
+          <phase>P</phase>
+          <azimuth>75.51</azimuth>
+          <distance>0.758</distance>
+          <timeResidual>0.055999999999999994</timeResidual>
+          <timeWeight>-1.0</timeWeight>
+        </arrival>
+        <arrival publicID="smi:local/c555f236-538c-4226-a611-952c89577029">
+          <pickID>smi:local/21690517</pickID>
+          <phase>P</phase>
+          <azimuth>279.11</azimuth>
+          <distance>0.8440000000000001</distance>
+          <timeResidual>-0.08199999999999999</timeResidual>
+          <timeWeight>-1.0</timeWeight>
+        </arrival>
+        <arrival publicID="smi:local/85d6dabc-ecc6-4f24-b970-5eb79336fc8f">
+          <pickID>smi:local/21690518</pickID>
+          <phase>P</phase>
+          <azimuth>112.06</azimuth>
+          <distance>0.892</distance>
+          <timeResidual>0.012</timeResidual>
+          <timeWeight>-1.0</timeWeight>
+        </arrival>
+        <arrival publicID="smi:local/765d6111-23f0-4469-b56a-75e68565cfe5">
+          <pickID>smi:local/21690519</pickID>
+          <phase>S</phase>
+          <azimuth>177.77</azimuth>
+          <distance>0.525</distance>
+          <timeResidual>0.305</timeResidual>
+          <timeWeight>-1.0</timeWeight>
+        </arrival>
+        <arrival publicID="smi:local/0180fc20-fce5-44de-9230-2377b50618f7">
+          <pickID>smi:local/21690520</pickID>
+          <phase>P</phase>
+          <azimuth>159.54</azimuth>
+          <distance>1.092</distance>
+          <timeResidual>-0.207</timeResidual>
+          <timeWeight>-1.0</timeWeight>
+        </arrival>
+        <arrival publicID="smi:local/7ea4d2e8-128d-4886-84f4-c8fdfb51764f">
+          <pickID>smi:local/21690521</pickID>
+          <phase>S</phase>
+          <azimuth>122.21</azimuth>
+          <distance>0.618</distance>
+          <timeResidual>-0.062</timeResidual>
+          <timeWeight>-1.0</timeWeight>
+        </arrival>
+        <arrival publicID="smi:local/388c0f0e-fccb-4025-abdb-06d85d5e1dfd">
+          <pickID>smi:local/21690522</pickID>
+          <phase>Pb</phase>
+          <azimuth>311.07</azimuth>
+          <distance>1.287</distance>
+          <timeResidual>0.225</timeResidual>
+          <timeWeight>-1.0</timeWeight>
+        </arrival>
+        <arrival publicID="smi:local/ef965921-1f49-45ca-a882-95976b8359e1">
+          <pickID>smi:local/21690523</pickID>
+          <phase>S</phase>
+          <azimuth>75.51</azimuth>
+          <distance>0.758</distance>
+          <timeResidual>-0.146</timeResidual>
+          <timeWeight>-1.0</timeWeight>
+        </arrival>
+        <arrival publicID="smi:local/205cda0c-5301-4458-b415-98d232181f68">
+          <pickID>smi:local/21690524</pickID>
+          <phase>Pb</phase>
+          <azimuth>301.76</azimuth>
+          <distance>1.4509999999999998</distance>
+          <timeResidual>-0.18</timeResidual>
+          <timeWeight>-1.0</timeWeight>
+        </arrival>
+        <arrival publicID="smi:local/25c5fcd5-5645-4025-aa2c-15c026a8db7a">
+          <pickID>smi:local/21690525</pickID>
+          <phase>Pb</phase>
+          <azimuth>276.46</azimuth>
+          <distance>1.4509999999999998</distance>
+          <timeResidual>-0.212</timeResidual>
+          <timeWeight>-1.0</timeWeight>
+        </arrival>
+        <arrival publicID="smi:local/882660d4-7086-46d3-a438-106cdcbad4a4">
+          <pickID>smi:local/21690526</pickID>
+          <phase>Pb</phase>
+          <azimuth>135.74</azimuth>
+          <distance>1.464</distance>
+          <timeResidual>0.218</timeResidual>
+          <timeWeight>-1.0</timeWeight>
+        </arrival>
+        <arrival publicID="smi:local/b01d70ee-ed10-43a2-9c41-95b0359a73bb">
+          <pickID>smi:local/21690528</pickID>
+          <phase>S</phase>
+          <azimuth>112.06</azimuth>
+          <distance>0.892</distance>
+          <timeResidual>-0.845</timeResidual>
+          <timeWeight>-1.0</timeWeight>
+        </arrival>
+        <arrival publicID="smi:local/1b018b96-1a84-409c-add6-ed5af725b603">
+          <pickID>smi:local/21690529</pickID>
+          <phase>Pb</phase>
+          <azimuth>107.38</azimuth>
+          <distance>1.577</distance>
+          <timeResidual>0.434</timeResidual>
+          <timeWeight>-1.0</timeWeight>
+        </arrival>
+        <arrival publicID="smi:local/c6645c75-38b7-418c-9a72-2be85cd62894">
+          <pickID>smi:local/21690530</pickID>
+          <phase>Pb</phase>
+          <azimuth>254.92</azimuth>
+          <distance>1.6740000000000002</distance>
+          <timeResidual>-0.20600000000000002</timeResidual>
+          <timeWeight>-1.0</timeWeight>
+        </arrival>
+        <arrival publicID="smi:local/1164fbbb-92cf-48ae-bea1-f4ae8c008c69">
+          <pickID>smi:local/21690531</pickID>
+          <phase>Pb</phase>
+          <azimuth>190.38</azimuth>
+          <distance>1.7480000000000002</distance>
+          <timeResidual>0.083</timeResidual>
+          <timeWeight>-1.0</timeWeight>
+        </arrival>
+        <arrival publicID="smi:local/a54c64e5-9501-42e6-8dec-b3a0ea43a15a">
+          <pickID>smi:local/21690533</pickID>
+          <phase>S</phase>
+          <azimuth>159.54</azimuth>
+          <distance>1.092</distance>
+          <timeResidual>-1.254</timeResidual>
+          <timeWeight>-1.0</timeWeight>
+        </arrival>
+        <arrival publicID="smi:local/01910535-38b3-4811-98e9-628c260aa803">
+          <pickID>smi:local/21690535</pickID>
+          <phase>Pb</phase>
+          <azimuth>151.39</azimuth>
+          <distance>1.989</distance>
+          <timeResidual>0.24600000000000002</timeResidual>
+          <timeWeight>-1.0</timeWeight>
+        </arrival>
+        <arrival publicID="smi:local/5fc16dc2-a069-45a9-903b-30fadf84cd28">
+          <pickID>smi:local/21690536</pickID>
+          <phase>Pb</phase>
+          <azimuth>135.83</azimuth>
+          <distance>2.34</distance>
+          <timeResidual>-0.006999999999999999</timeResidual>
+          <timeWeight>-1.0</timeWeight>
+        </arrival>
+        <arrival publicID="smi:local/1858ad82-79b6-4f2c-95a2-c8c365c19cf0">
+          <pickID>smi:local/21690537</pickID>
+          <phase>Pb</phase>
+          <azimuth>172.67</azimuth>
+          <distance>2.465</distance>
+          <timeResidual>0.012</timeResidual>
+          <timeWeight>-1.0</timeWeight>
+        </arrival>
+        <arrival publicID="smi:local/2eb2abd4-326f-4d3b-9107-6ac8d50a5959">
+          <pickID>smi:local/21690538</pickID>
+          <phase>Pb</phase>
+          <azimuth>155.33</azimuth>
+          <distance>2.529</distance>
+          <timeResidual>-0.486</timeResidual>
+          <timeWeight>-1.0</timeWeight>
+        </arrival>
+        <arrival publicID="smi:local/aa0168c5-13f3-4f2a-a301-4a0de20f9213">
+          <pickID>smi:local/21690539</pickID>
+          <phase>Pb</phase>
+          <azimuth>240.57</azimuth>
+          <distance>2.501</distance>
+          <timeResidual>0.292</timeResidual>
+          <timeWeight>-1.0</timeWeight>
+        </arrival>
+        <arrival publicID="smi:local/2ca9f80b-3208-4581-86db-0a26b213a965">
+          <pickID>smi:local/21690541</pickID>
+          <phase>Pb</phase>
+          <azimuth>196.31</azimuth>
+          <distance>3.135</distance>
+          <timeResidual>0.561</timeResidual>
+          <timeWeight>-1.0</timeWeight>
+        </arrival>
+        <arrival publicID="smi:local/be405e88-77a5-4ff1-bcdd-a4cfb12ad03e">
+          <pickID>smi:local/21690543</pickID>
+          <phase>Sb</phase>
+          <azimuth>151.39</azimuth>
+          <distance>1.989</distance>
+          <timeResidual>0.428</timeResidual>
+          <timeWeight>-1.0</timeWeight>
+        </arrival>
+        <arrival publicID="smi:local/70e37eec-73e9-4dbd-a727-b938b2244922">
+          <pickID>smi:local/21690545</pickID>
+          <phase>Sb</phase>
+          <azimuth>135.83</azimuth>
+          <distance>2.34</distance>
+          <timeResidual>0.475</timeResidual>
+          <timeWeight>-1.0</timeWeight>
+        </arrival>
+        <arrival publicID="smi:local/8ff8ef77-b07b-4881-af92-9be8619b5150">
+          <pickID>smi:local/21690546</pickID>
+          <phase>Sb</phase>
+          <azimuth>172.67</azimuth>
+          <distance>2.465</distance>
+          <timeResidual>0.09</timeResidual>
+          <timeWeight>-1.0</timeWeight>
+        </arrival>
+        <arrival publicID="smi:local/c710c14e-143a-4727-8904-daa1649af882">
+          <pickID>smi:local/21690547</pickID>
+          <phase>Sb</phase>
+          <azimuth>155.33</azimuth>
+          <distance>2.529</distance>
+          <timeResidual>-0.282</timeResidual>
+          <timeWeight>-1.0</timeWeight>
+        </arrival>
+        <arrival publicID="smi:local/c1a99a6d-559a-4438-90ac-cc947737f302">
+          <pickID>smi:local/21690548</pickID>
+          <phase>Sb</phase>
+          <azimuth>135.66</azimuth>
+          <distance>3.076</distance>
+          <timeResidual>0.408</timeResidual>
+          <timeWeight>-1.0</timeWeight>
+        </arrival>
+        <arrival publicID="smi:local/811c90cb-985f-4e92-9e88-4c388ea22ce2">
+          <pickID>smi:local/21690549</pickID>
+          <phase>Sb</phase>
+          <azimuth>196.31</azimuth>
+          <distance>3.135</distance>
+          <timeResidual>0.019</timeResidual>
+          <timeWeight>-1.0</timeWeight>
+        </arrival>
+        <arrival publicID="smi:local/45aef279-610e-48f0-aff7-305c0ccee34d">
+          <pickID>smi:local/21690552</pickID>
+          <phase>Sb</phase>
+          <azimuth>179.04</azimuth>
+          <distance>3.3</distance>
+          <timeResidual>0.313</timeResidual>
+          <timeWeight>-1.0</timeWeight>
+        </arrival>
+      </origin>
+      <origin publicID="smi:local/404311">
+        <time>
+          <value>2007-08-06T01:44:48.810000Z</value>
+        </time>
+        <latitude>
+          <value>39.4617</value>
+        </latitude>
+        <longitude>
+          <value>-111.2378</value>
+        </longitude>
+        <depth>
+          <value>6570.0</value>
+        </depth>
+        <quality>
+          <standardError>0.8936</standardError>
+        </quality>
+        <arrival publicID="smi:local/e758cdd2-3f38-4a8d-a57c-d89721a0de91">
+          <pickID>smi:local/21690511</pickID>
+          <phase>Pg</phase>
+          <azimuth>88.16</azimuth>
+          <distance>0.384</distance>
+          <timeResidual>-0.401</timeResidual>
+          <timeWeight>-1.0</timeWeight>
+        </arrival>
+        <arrival publicID="smi:local/b6a6c8f6-f0cb-4a07-b5de-36cf54fe2a49">
+          <pickID>smi:local/21690512</pickID>
+          <phase>Pg</phase>
+          <azimuth>294.53</azimuth>
+          <distance>0.35700000000000004</distance>
+          <timeResidual>0.821</timeResidual>
+          <timeWeight>-1.0</timeWeight>
+        </arrival>
+        <arrival publicID="smi:local/2c80ecaf-96be-4113-b84d-699b06e7c18e">
+          <pickID>smi:local/21690513</pickID>
+          <phase>Pg</phase>
+          <azimuth>174.59</azimuth>
+          <distance>0.547</distance>
+          <timeResidual>-0.373</timeResidual>
+          <timeWeight>-1.0</timeWeight>
+        </arrival>
+        <arrival publicID="smi:local/34d1706b-61db-4f35-bc5c-0080abd84fe9">
+          <pickID>smi:local/21690514</pickID>
+          <phase>Pg</phase>
+          <azimuth>122.19</azimuth>
+          <distance>0.655</distance>
+          <timeResidual>-0.564</timeResidual>
+          <timeWeight>-1.0</timeWeight>
+        </arrival>
+        <arrival publicID="smi:local/aa70c09e-e0c6-4bcd-b36f-4b1e0facbbf2">
+          <pickID>smi:local/21690515</pickID>
+          <phase>Sg</phase>
+          <azimuth>88.16</azimuth>
+          <distance>0.384</distance>
+          <timeResidual>-0.016</timeResidual>
+          <timeWeight>-1.0</timeWeight>
+        </arrival>
+        <arrival publicID="smi:local/8217087a-a382-453f-ba7e-80ba6db0cb89">
+          <pickID>smi:local/21690516</pickID>
+          <phase>Pg</phase>
+          <azimuth>77.43</azimuth>
+          <distance>0.7829999999999999</distance>
+          <timeResidual>-0.207</timeResidual>
+          <timeWeight>-1.0</timeWeight>
+        </arrival>
+        <arrival publicID="smi:local/13916c10-7d85-4268-809b-4c70315ca114">
+          <pickID>smi:local/21690517</pickID>
+          <phase>Pb</phase>
+          <azimuth>278.07</azimuth>
+          <distance>0.81</distance>
+          <timeResidual>-0.239</timeResidual>
+          <timeWeight>-1.0</timeWeight>
+        </arrival>
+        <arrival publicID="smi:local/9fb3bcde-7cea-425b-aca7-4bad76d63d84">
+          <pickID>smi:local/21690518</pickID>
+          <phase>Pg</phase>
+          <azimuth>112.43</azimuth>
+          <distance>0.9279999999999999</distance>
+          <timeResidual>-0.679</timeResidual>
+          <timeWeight>-1.0</timeWeight>
+        </arrival>
+        <arrival publicID="smi:local/6d3f8b1f-7b76-48d6-9938-9d90a70a2988">
+          <pickID>smi:local/21690519</pickID>
+          <phase>Sg</phase>
+          <azimuth>174.59</azimuth>
+          <distance>0.547</distance>
+          <timeResidual>0.113</timeResidual>
+          <timeWeight>-1.0</timeWeight>
+        </arrival>
+        <arrival publicID="smi:local/ca2d0138-b2f8-48da-9aea-ddc69b098d3e">
+          <pickID>smi:local/21690520</pickID>
+          <phase>Pg</phase>
+          <azimuth>158.38</azimuth>
+          <distance>1.121</distance>
+          <timeResidual>-1.012</timeResidual>
+          <timeWeight>-1.0</timeWeight>
+        </arrival>
+        <arrival publicID="smi:local/83a56c16-9e88-4862-8581-8e2ed8597539">
+          <pickID>smi:local/21690521</pickID>
+          <phase>Sg</phase>
+          <azimuth>122.19</azimuth>
+          <distance>0.655</distance>
+          <timeResidual>-0.802</timeResidual>
+          <timeWeight>-1.0</timeWeight>
+        </arrival>
+        <arrival publicID="smi:local/98f1f61d-72ee-4436-afcc-b01463e61523">
+          <pickID>smi:local/21690522</pickID>
+          <phase>Pg</phase>
+          <azimuth>311.3</azimuth>
+          <distance>1.251</distance>
+          <timeResidual>0.302</timeResidual>
+          <timeWeight>-1.0</timeWeight>
+        </arrival>
+        <arrival publicID="smi:local/b607af4a-a2f9-4373-bce1-4b468d0450e7">
+          <pickID>smi:local/21690523</pickID>
+          <phase>Sg</phase>
+          <azimuth>77.43</azimuth>
+          <distance>0.7829999999999999</distance>
+          <timeResidual>-0.382</timeResidual>
+          <timeWeight>-1.0</timeWeight>
+        </arrival>
+        <arrival publicID="smi:local/0419e934-b4ec-4b38-964b-abbee30fe196">
+          <pickID>smi:local/21690524</pickID>
+          <phase>Pb</phase>
+          <azimuth>301.72</azimuth>
+          <distance>1.415</distance>
+          <timeResidual>-0.065</timeResidual>
+          <timeWeight>-1.0</timeWeight>
+        </arrival>
+        <arrival publicID="smi:local/0bd89eba-d15f-4b0f-8677-44b254cef0ad">
+          <pickID>smi:local/21690525</pickID>
+          <phase>Pb</phase>
+          <azimuth>275.8</azimuth>
+          <distance>1.4180000000000001</distance>
+          <timeResidual>-0.121</timeResidual>
+          <timeWeight>-1.0</timeWeight>
+        </arrival>
+        <arrival publicID="smi:local/42e78c8d-e2d0-451d-8e0a-358954b3465b">
+          <pickID>smi:local/21690526</pickID>
+          <phase>Pn</phase>
+          <azimuth>135.39</azimuth>
+          <distance>1.5</distance>
+          <timeResidual>-0.015</timeResidual>
+          <timeWeight>-1.0</timeWeight>
+        </arrival>
+        <arrival publicID="smi:local/be992e30-3fe9-4bf5-9aee-2c45aae43617">
+          <pickID>smi:local/21690528</pickID>
+          <phase>Sg</phase>
+          <azimuth>112.43</azimuth>
+          <distance>0.9279999999999999</distance>
+          <timeResidual>-1.8359999999999999</timeResidual>
+          <timeWeight>-1.0</timeWeight>
+        </arrival>
+        <arrival publicID="smi:local/5893ce15-370d-4910-81dd-5e0232629b02">
+          <pickID>smi:local/21690529</pickID>
+          <phase>Pn</phase>
+          <azimuth>107.69</azimuth>
+          <distance>1.6119999999999999</distance>
+          <timeResidual>0.504</timeResidual>
+          <timeWeight>-1.0</timeWeight>
+        </arrival>
+        <arrival publicID="smi:local/5e4f26c0-6069-4572-b0cc-25854d12665d">
+          <pickID>smi:local/21690530</pickID>
+          <phase>Pb</phase>
+          <azimuth>253.96</azimuth>
+          <distance>1.649</distance>
+          <timeResidual>-0.298</timeResidual>
+          <timeWeight>-1.0</timeWeight>
+        </arrival>
+        <arrival publicID="smi:local/ea056203-d6e1-40fd-9512-7bb5887ea617">
+          <pickID>smi:local/21690531</pickID>
+          <phase>pPn</phase>
+          <azimuth>189.26</azimuth>
+          <distance>1.7619999999999998</distance>
+          <timeResidual>-0.501</timeResidual>
+          <timeWeight>-1.0</timeWeight>
+        </arrival>
+        <arrival publicID="smi:local/8bfe3a85-20ab-4bae-aad4-9450598b44a3">
+          <pickID>smi:local/21690533</pickID>
+          <phase>Sg</phase>
+          <azimuth>158.38</azimuth>
+          <distance>1.121</distance>
+          <timeResidual>-2.417</timeResidual>
+          <timeWeight>-1.0</timeWeight>
+        </arrival>
+        <arrival publicID="smi:local/d00cc04e-b571-46bc-852e-b03e67cdec06">
+          <pickID>smi:local/21690535</pickID>
+          <phase>pPn</phase>
+          <azimuth>150.86</azimuth>
+          <distance>2.02</distance>
+          <timeResidual>0.28</timeResidual>
+          <timeWeight>-1.0</timeWeight>
+        </arrival>
+        <arrival publicID="smi:local/c3f9b5cc-cba7-40a1-a899-e7e7adedf3de">
+          <pickID>smi:local/21690536</pickID>
+          <phase>Pb</phase>
+          <azimuth>135.6</azimuth>
+          <distance>2.375</distance>
+          <timeResidual>-1.044</timeResidual>
+          <timeWeight>-1.0</timeWeight>
+        </arrival>
+        <arrival publicID="smi:local/4a19b34a-0361-4cc8-af68-555d103e55b3">
+          <pickID>smi:local/21690537</pickID>
+          <phase>Pb</phase>
+          <azimuth>172.0</azimuth>
+          <distance>2.488</distance>
+          <timeResidual>-0.8420000000000001</timeResidual>
+          <timeWeight>-1.0</timeWeight>
+        </arrival>
+        <arrival publicID="smi:local/43763022-1546-4773-ba2b-8ac98f034492">
+          <pickID>smi:local/21690538</pickID>
+          <phase>pPn</phase>
+          <azimuth>154.86</azimuth>
+          <distance>2.56</distance>
+          <timeResidual>1.214</timeResidual>
+          <timeWeight>-1.0</timeWeight>
+        </arrival>
+        <arrival publicID="smi:local/e04625ed-7c20-46c2-aeef-f36c79144eff">
+          <pickID>smi:local/21690539</pickID>
+          <phase>Pb</phase>
+          <azimuth>239.8</azimuth>
+          <distance>2.484</distance>
+          <timeResidual>0.139</timeResidual>
+          <timeWeight>-1.0</timeWeight>
+        </arrival>
+        <arrival publicID="smi:local/7c6f3a3e-678f-4364-8a3a-918da7c96ae2">
+          <pickID>smi:local/21690541</pickID>
+          <phase>Pb</phase>
+          <azimuth>195.64</azimuth>
+          <distance>3.145</distance>
+          <timeResidual>0.01</timeResidual>
+          <timeWeight>-1.0</timeWeight>
+        </arrival>
+        <arrival publicID="smi:local/ccd3faf1-d8c9-425c-ba38-a18217890a2c">
+          <pickID>smi:local/21690543</pickID>
+          <phase>Sb</phase>
+          <azimuth>150.86</azimuth>
+          <distance>2.02</distance>
+          <timeResidual>-0.997</timeResidual>
+          <timeWeight>-1.0</timeWeight>
+        </arrival>
+        <arrival publicID="smi:local/b8a7bbef-0b28-43b5-96a0-e0adfc9e133e">
+          <pickID>smi:local/21690545</pickID>
+          <phase>Sb</phase>
+          <azimuth>135.6</azimuth>
+          <distance>2.375</distance>
+          <timeResidual>-1.124</timeResidual>
+          <timeWeight>-1.0</timeWeight>
+        </arrival>
+        <arrival publicID="smi:local/39f6758e-0dc9-4ae3-9dd6-49fc7f76ced8">
+          <pickID>smi:local/21690546</pickID>
+          <phase>Sb</phase>
+          <azimuth>172.0</azimuth>
+          <distance>2.488</distance>
+          <timeResidual>-1.196</timeResidual>
+          <timeWeight>-1.0</timeWeight>
+        </arrival>
+        <arrival publicID="smi:local/ce79f7fa-f600-4543-8716-ea9ee2e7e52f">
+          <pickID>smi:local/21690547</pickID>
+          <phase>Sb</phase>
+          <azimuth>154.86</azimuth>
+          <distance>2.56</distance>
+          <timeResidual>-1.92</timeResidual>
+          <timeWeight>-1.0</timeWeight>
+        </arrival>
+        <arrival publicID="smi:local/821f0094-7e3b-4d21-9878-ed50130325c5">
+          <pickID>smi:local/21690548</pickID>
+          <phase>Sb</phase>
+          <azimuth>135.48</azimuth>
+          <distance>3.112</distance>
+          <timeResidual>-1.166</timeResidual>
+          <timeWeight>-1.0</timeWeight>
+        </arrival>
+        <arrival publicID="smi:local/165f99f4-dbee-45bb-97eb-1cb3c4eeb47e">
+          <pickID>smi:local/21690549</pickID>
+          <phase>Sb</phase>
+          <azimuth>195.64</azimuth>
+          <distance>3.145</distance>
+          <timeResidual>-0.732</timeResidual>
+          <timeWeight>-1.0</timeWeight>
+        </arrival>
+        <arrival publicID="smi:local/aadbbdc1-2023-4c4f-889f-ad0f9006fcb4">
+          <pickID>smi:local/21690552</pickID>
+          <phase>Sb</phase>
+          <azimuth>178.49</azimuth>
+          <distance>3.32</distance>
+          <timeResidual>-0.956</timeResidual>
+          <timeWeight>-1.0</timeWeight>
+        </arrival>
+      </origin>
+      <magnitude publicID="smi:local/2e6f4cfb-b2f1-4d30-8224-998be7864bac">
+        <mag>
+          <value>2.32</value>
+          <uncertainty>0.49</uncertainty>
+        </mag>
+        <type>ml</type>
+        <originID>smi:local/404310</originID>
+        <stationCount>8</stationCount>
+        <creationInfo>
+          <agencyID>dbevproc</agencyID>
+          <creationTime>2012-04-12T10:13:34.293510Z</creationTime>
+        </creationInfo>
+      </magnitude>
+      <magnitude publicID="smi:local/d6d2fd4c-bd67-4e20-8060-129475ea36f9">
+        <mag>
+          <value>1.78</value>
+          <uncertainty>-1.0</uncertainty>
+        </mag>
+        <type>ml</type>
+        <originID>smi:local/404311</originID>
+        <stationCount>-1</stationCount>
+        <creationInfo>
+          <agencyID>UUSS</agencyID>
+          <creationTime>2010-04-30T18:17:20.620870Z</creationTime>
+        </creationInfo>
+      </magnitude>
+      <pick publicID="smi:local/21690511">
+        <time>
+          <value>2007-08-06T01:44:55.867280Z</value>
+        </time>
+        <waveformID channelCode="BHZ" locationCode="" networkCode="TA" stationCode="P17A"></waveformID>
+        <phaseHint>P</phaseHint>
+        <evaluationStatus>rejected</evaluationStatus>
+        <creationInfo>
+          <creationTime>2010-04-30T17:55:37.254320Z</creationTime>
+        </creationInfo>
+      </pick>
+      <pick publicID="smi:local/21690512">
+        <time>
+          <value>2007-08-06T01:44:56.571860Z</value>
+        </time>
+        <waveformID channelCode="BHZ" locationCode="" networkCode="TA" stationCode="P16A"></waveformID>
+        <phaseHint>P</phaseHint>
+        <evaluationStatus>rejected</evaluationStatus>
+        <creationInfo>
+          <creationTime>2010-04-30T17:55:33.062400Z</creationTime>
+        </creationInfo>
+      </pick>
+      <pick publicID="smi:local/21690513">
+        <time>
+          <value>2007-08-06T01:44:58.972420Z</value>
+        </time>
+        <waveformID channelCode="BHZ" locationCode="" networkCode="TA" stationCode="Q16A"></waveformID>
+        <phaseHint>P</phaseHint>
+        <evaluationStatus>rejected</evaluationStatus>
+        <creationInfo>
+          <creationTime>2010-04-30T17:55:41.454500Z</creationTime>
+        </creationInfo>
+      </pick>
+      <pick publicID="smi:local/21690514">
+        <time>
+          <value>2007-08-06T01:45:00.841540Z</value>
+        </time>
+        <waveformID channelCode="BHZ" locationCode="" networkCode="UU" stationCode="SRU"></waveformID>
+        <phaseHint>P</phaseHint>
+        <evaluationStatus>rejected</evaluationStatus>
+        <creationInfo>
+          <creationTime>2010-04-30T17:55:19.901670Z</creationTime>
+        </creationInfo>
+      </pick>
+      <pick publicID="smi:local/21690515">
+        <time>
+          <value>2007-08-06T01:45:01.672610Z</value>
+        </time>
+        <waveformID channelCode="BHN" locationCode="" networkCode="TA" stationCode="P17A"></waveformID>
+        <phaseHint>S</phaseHint>
+        <evaluationStatus>rejected</evaluationStatus>
+        <creationInfo>
+          <creationTime>2010-04-30T17:55:54.182990Z</creationTime>
+        </creationInfo>
+      </pick>
+      <pick publicID="smi:local/21690516">
+        <time>
+          <value>2007-08-06T01:45:03.647100Z</value>
+        </time>
+        <waveformID channelCode="BHZ" locationCode="" networkCode="TA" stationCode="P18A"></waveformID>
+        <phaseHint>P</phaseHint>
+        <evaluationStatus>rejected</evaluationStatus>
+        <creationInfo>
+          <creationTime>2010-04-30T17:56:30.704450Z</creationTime>
+        </creationInfo>
+      </pick>
+      <pick publicID="smi:local/21690517">
+        <time>
+          <value>2007-08-06T01:45:05.005300Z</value>
+        </time>
+        <waveformID channelCode="BHZ" locationCode="" networkCode="TA" stationCode="P15A"></waveformID>
+        <phaseHint>P</phaseHint>
+        <evaluationStatus>rejected</evaluationStatus>
+        <creationInfo>
+          <creationTime>2010-04-30T18:02:50.895760Z</creationTime>
+        </creationInfo>
+      </pick>
+      <pick publicID="smi:local/21690518">
+        <time>
+          <value>2007-08-06T01:45:05.942630Z</value>
+        </time>
+        <waveformID channelCode="BHZ" locationCode="" networkCode="TA" stationCode="Q18A"></waveformID>
+        <phaseHint>P</phaseHint>
+        <evaluationStatus>rejected</evaluationStatus>
+        <creationInfo>
+          <creationTime>2010-04-30T17:56:38.912830Z</creationTime>
+        </creationInfo>
+      </pick>
+      <pick publicID="smi:local/21690519">
+        <time>
+          <value>2007-08-06T01:45:07.111000Z</value>
+        </time>
+        <waveformID channelCode="BHE" locationCode="" networkCode="TA" stationCode="Q16A"></waveformID>
+        <phaseHint>S</phaseHint>
+        <evaluationStatus>rejected</evaluationStatus>
+        <creationInfo>
+          <creationTime>2010-04-30T17:56:01.455430Z</creationTime>
+        </creationInfo>
+      </pick>
+      <pick publicID="smi:local/21690520">
+        <time>
+          <value>2007-08-06T01:45:09.300350Z</value>
+        </time>
+        <waveformID channelCode="BHZ" locationCode="" networkCode="TA" stationCode="R17A"></waveformID>
+        <phaseHint>P</phaseHint>
+        <evaluationStatus>rejected</evaluationStatus>
+        <creationInfo>
+          <creationTime>2010-04-30T18:01:36.188680Z</creationTime>
+        </creationInfo>
+      </pick>
+      <pick publicID="smi:local/21690521">
+        <time>
+          <value>2007-08-06T01:45:09.750170Z</value>
+        </time>
+        <waveformID channelCode="BHE" locationCode="" networkCode="UU" stationCode="SRU"></waveformID>
+        <phaseHint>S</phaseHint>
+        <evaluationStatus>rejected</evaluationStatus>
+        <creationInfo>
+          <creationTime>2010-04-30T17:56:04.999570Z</creationTime>
+        </creationInfo>
+      </pick>
+      <pick publicID="smi:local/21690522">
+        <time>
+          <value>2007-08-06T01:45:13.103490Z</value>
+        </time>
+        <waveformID channelCode="BHZ" locationCode="" networkCode="TA" stationCode="O15A"></waveformID>
+        <phaseHint>Pb</phaseHint>
+        <evaluationStatus>rejected</evaluationStatus>
+        <creationInfo>
+          <creationTime>2010-04-30T18:04:53.692520Z</creationTime>
+        </creationInfo>
+      </pick>
+      <pick publicID="smi:local/21690523">
+        <time>
+          <value>2007-08-06T01:45:14.396690Z</value>
+        </time>
+        <waveformID channelCode="BHE" locationCode="" networkCode="TA" stationCode="P18A"></waveformID>
+        <phaseHint>S</phaseHint>
+        <evaluationStatus>rejected</evaluationStatus>
+        <creationInfo>
+          <creationTime>2010-04-30T17:56:34.232610Z</creationTime>
+        </creationInfo>
+      </pick>
+      <pick publicID="smi:local/21690524">
+        <time>
+          <value>2007-08-06T01:45:15.486600Z</value>
+        </time>
+        <waveformID channelCode="BHZ" locationCode="" networkCode="US" stationCode="DUG"></waveformID>
+        <phaseHint>Pb</phaseHint>
+        <evaluationStatus>rejected</evaluationStatus>
+        <creationInfo>
+          <creationTime>2010-04-30T18:05:06.173100Z</creationTime>
+        </creationInfo>
+      </pick>
+      <pick publicID="smi:local/21690525">
+        <time>
+          <value>2007-08-06T01:45:15.487300Z</value>
+        </time>
+        <waveformID channelCode="BHZ" locationCode="" networkCode="TA" stationCode="P14A"></waveformID>
+        <phaseHint>Pb</phaseHint>
+        <evaluationStatus>rejected</evaluationStatus>
+        <creationInfo>
+          <creationTime>2010-04-30T18:03:53.978130Z</creationTime>
+        </creationInfo>
+      </pick>
+      <pick publicID="smi:local/21690526">
+        <time>
+          <value>2007-08-06T01:45:16.152450Z</value>
+        </time>
+        <waveformID channelCode="BHZ" locationCode="" networkCode="TA" stationCode="R18A"></waveformID>
+        <phaseHint>Pb</phaseHint>
+        <evaluationStatus>rejected</evaluationStatus>
+        <creationInfo>
+          <creationTime>2010-04-30T18:03:28.281040Z</creationTime>
+        </creationInfo>
+      </pick>
+      <pick publicID="smi:local/21690528">
+        <time>
+          <value>2007-08-06T01:45:17.719950Z</value>
+        </time>
+        <waveformID channelCode="BHE" locationCode="" networkCode="TA" stationCode="Q18A"></waveformID>
+        <phaseHint>S</phaseHint>
+        <evaluationStatus>rejected</evaluationStatus>
+        <creationInfo>
+          <creationTime>2010-04-30T18:01:22.764060Z</creationTime>
+        </creationInfo>
+      </pick>
+      <pick publicID="smi:local/21690529">
+        <time>
+          <value>2007-08-06T01:45:18.212400Z</value>
+        </time>
+        <waveformID channelCode="BHZ" locationCode="" networkCode="TA" stationCode="Q19A"></waveformID>
+        <phaseHint>Pb</phaseHint>
+        <evaluationStatus>rejected</evaluationStatus>
+        <creationInfo>
+          <creationTime>2010-04-30T18:05:56.238910Z</creationTime>
+        </creationInfo>
+      </pick>
+      <pick publicID="smi:local/21690530">
+        <time>
+          <value>2007-08-06T01:45:19.249040Z</value>
+        </time>
+        <waveformID channelCode="BHZ" locationCode="" networkCode="TA" stationCode="Q14A"></waveformID>
+        <phaseHint>Pb</phaseHint>
+        <evaluationStatus>rejected</evaluationStatus>
+        <creationInfo>
+          <creationTime>2010-04-30T18:05:40.886430Z</creationTime>
+        </creationInfo>
+      </pick>
+      <pick publicID="smi:local/21690531">
+        <time>
+          <value>2007-08-06T01:45:20.849940Z</value>
+        </time>
+        <waveformID channelCode="BHZ" locationCode="" networkCode="TA" stationCode="S16A"></waveformID>
+        <phaseHint>Pb</phaseHint>
+        <evaluationStatus>rejected</evaluationStatus>
+        <creationInfo>
+          <creationTime>2010-04-30T18:06:48.401180Z</creationTime>
+        </creationInfo>
+      </pick>
+      <pick publicID="smi:local/21690533">
+        <time>
+          <value>2007-08-06T01:45:23.511170Z</value>
+        </time>
+        <waveformID channelCode="BHE" locationCode="" networkCode="TA" stationCode="R17A"></waveformID>
+        <phaseHint>S</phaseHint>
+        <evaluationStatus>rejected</evaluationStatus>
+        <creationInfo>
+          <creationTime>2010-04-30T18:16:48.696970Z</creationTime>
+        </creationInfo>
+      </pick>
+      <pick publicID="smi:local/21690535">
+        <time>
+          <value>2007-08-06T01:45:25.186140Z</value>
+        </time>
+        <waveformID channelCode="BHZ" locationCode="" networkCode="TA" stationCode="S18A"></waveformID>
+        <phaseHint>Pb</phaseHint>
+        <evaluationStatus>rejected</evaluationStatus>
+        <creationInfo>
+          <creationTime>2010-04-30T18:08:57.166270Z</creationTime>
+        </creationInfo>
+      </pick>
+      <pick publicID="smi:local/21690536">
+        <time>
+          <value>2007-08-06T01:45:30.878180Z</value>
+        </time>
+        <waveformID channelCode="BHZ" locationCode="" networkCode="TA" stationCode="S19A"></waveformID>
+        <phaseHint>Pb</phaseHint>
+        <evaluationStatus>rejected</evaluationStatus>
+        <creationInfo>
+          <creationTime>2010-04-30T18:12:53.663680Z</creationTime>
+        </creationInfo>
+      </pick>
+      <pick publicID="smi:local/21690537">
+        <time>
+          <value>2007-08-06T01:45:33.014160Z</value>
+        </time>
+        <waveformID channelCode="BHZ" locationCode="" networkCode="TA" stationCode="T17A"></waveformID>
+        <phaseHint>Pb</phaseHint>
+        <evaluationStatus>rejected</evaluationStatus>
+        <creationInfo>
+          <creationTime>2010-04-30T18:12:58.351850Z</creationTime>
+        </creationInfo>
+      </pick>
+      <pick publicID="smi:local/21690538">
+        <time>
+          <value>2007-08-06T01:45:33.536680Z</value>
+        </time>
+        <waveformID channelCode="BHZ" locationCode="" networkCode="TA" stationCode="T18A"></waveformID>
+        <phaseHint>Pb</phaseHint>
+        <evaluationStatus>rejected</evaluationStatus>
+        <creationInfo>
+          <creationTime>2010-04-30T18:13:41.329570Z</creationTime>
+        </creationInfo>
+      </pick>
+      <pick publicID="smi:local/21690539">
+        <time>
+          <value>2007-08-06T01:45:33.921690Z</value>
+        </time>
+        <waveformID channelCode="BHZ" locationCode="" networkCode="TA" stationCode="R13A"></waveformID>
+        <phaseHint>Pb</phaseHint>
+        <evaluationStatus>rejected</evaluationStatus>
+        <creationInfo>
+          <creationTime>2010-04-30T18:14:08.202640Z</creationTime>
+        </creationInfo>
+      </pick>
+      <pick publicID="smi:local/21690541">
+        <time>
+          <value>2007-08-06T01:45:45.070690Z</value>
+        </time>
+        <waveformID channelCode="BHZ" locationCode="" networkCode="TA" stationCode="U15A"></waveformID>
+        <phaseHint>Pb</phaseHint>
+        <evaluationStatus>rejected</evaluationStatus>
+        <creationInfo>
+          <creationTime>2010-04-30T18:15:09.005070Z</creationTime>
+        </creationInfo>
+      </pick>
+      <pick publicID="smi:local/21690543">
+        <time>
+          <value>2007-08-06T01:45:51.974580Z</value>
+        </time>
+        <waveformID channelCode="BHN" locationCode="" networkCode="TA" stationCode="S18A"></waveformID>
+        <phaseHint>Sb</phaseHint>
+        <evaluationStatus>rejected</evaluationStatus>
+        <creationInfo>
+          <creationTime>2010-04-30T18:09:11.494790Z</creationTime>
+        </creationInfo>
+      </pick>
+      <pick publicID="smi:local/21690545">
+        <time>
+          <value>2007-08-06T01:46:02.322160Z</value>
+        </time>
+        <waveformID channelCode="BHE" locationCode="" networkCode="TA" stationCode="S19A"></waveformID>
+        <phaseHint>Sb</phaseHint>
+        <evaluationStatus>rejected</evaluationStatus>
+        <creationInfo>
+          <creationTime>2010-04-30T18:13:22.480830Z</creationTime>
+        </creationInfo>
+      </pick>
+      <pick publicID="smi:local/21690546">
+        <time>
+          <value>2007-08-06T01:46:05.602960Z</value>
+        </time>
+        <waveformID channelCode="BHN" locationCode="" networkCode="TA" stationCode="T17A"></waveformID>
+        <phaseHint>Sb</phaseHint>
+        <evaluationStatus>rejected</evaluationStatus>
+        <creationInfo>
+          <creationTime>2010-04-30T18:13:12.576510Z</creationTime>
+        </creationInfo>
+      </pick>
+      <pick publicID="smi:local/21690547">
+        <time>
+          <value>2007-08-06T01:46:06.990440Z</value>
+        </time>
+        <waveformID channelCode="BHN" locationCode="" networkCode="TA" stationCode="T18A"></waveformID>
+        <phaseHint>Sb</phaseHint>
+        <evaluationStatus>rejected</evaluationStatus>
+        <creationInfo>
+          <creationTime>2010-04-30T18:13:55.698280Z</creationTime>
+        </creationInfo>
+      </pick>
+      <pick publicID="smi:local/21690548">
+        <time>
+          <value>2007-08-06T01:46:24.061870Z</value>
+        </time>
+        <waveformID channelCode="BHN" locationCode="" networkCode="US" stationCode="MVCO"></waveformID>
+        <phaseHint>Sb</phaseHint>
+        <evaluationStatus>rejected</evaluationStatus>
+        <creationInfo>
+          <creationTime>2010-04-30T18:15:28.741830Z</creationTime>
+        </creationInfo>
+      </pick>
+      <pick publicID="smi:local/21690549">
+        <time>
+          <value>2007-08-06T01:46:25.487960Z</value>
+        </time>
+        <waveformID channelCode="BHN" locationCode="" networkCode="TA" stationCode="U15A"></waveformID>
+        <phaseHint>Sb</phaseHint>
+        <evaluationStatus>rejected</evaluationStatus>
+        <creationInfo>
+          <creationTime>2010-04-30T18:15:33.893980Z</creationTime>
+        </creationInfo>
+      </pick>
+      <pick publicID="smi:local/21690552">
+        <time>
+          <value>2007-08-06T01:46:30.424280Z</value>
+        </time>
+        <waveformID channelCode="BHN" locationCode="" networkCode="TA" stationCode="U16A"></waveformID>
+        <phaseHint>Sb</phaseHint>
+        <evaluationStatus>rejected</evaluationStatus>
+        <creationInfo>
+          <creationTime>2010-04-30T18:16:08.863610Z</creationTime>
+        </creationInfo>
+      </pick>
+      <pick publicID="smi:local/39ac7c9a-2a5a-495c-9976-0c5afee7d418">
+        <time>
+          <value>2007-08-06T01:45:10.082865Z</value>
+          <uncertainty>0.0375821590423584</uncertainty>
+        </time>
+        <waveformID channelCode="HHN" locationCode="" networkCode="UU" stationCode="SRU"></waveformID>
+        <methodID>smi:local/spick_0.0.0</methodID>
+        <phaseHint>S</phaseHint>
+        <evaluationMode>manual</evaluationMode>
+        <evaluationStatus>reviewed</evaluationStatus>
+        <creationInfo>
+          <agencyID>NIOSH</agencyID>
+          <author>DC</author>
+          <creationTime>2018-10-10T20:26:42.405651Z</creationTime>
+        </creationInfo>
+      </pick>
+      <pick publicID="smi:local/70fccc6c-5264-4ba2-a4db-83ce84d9b51e">
+        <time>
+          <value>2007-08-06T01:45:00.929706Z</value>
+          <uncertainty>0.030837535858154297</uncertainty>
+        </time>
+        <waveformID channelCode="HHZ" locationCode="" networkCode="UU" stationCode="SRU"></waveformID>
+        <methodID>smi:local/spick_0.0.0</methodID>
+        <phaseHint>P</phaseHint>
+        <polarity>negative</polarity>
+        <evaluationMode>manual</evaluationMode>
+        <evaluationStatus>reviewed</evaluationStatus>
+        <creationInfo>
+          <agencyID>NIOSH</agencyID>
+          <author>DC</author>
+          <creationTime>2018-10-10T20:26:42.405930Z</creationTime>
+        </creationInfo>
+      </pick>
+      <pick publicID="smi:local/de786841-3b6c-4407-90a7-1c3a7daff8b9">
+        <time>
+          <value>2007-08-06T01:44:59.069495Z</value>
+          <uncertainty>0.023707151412963867</uncertainty>
+        </time>
+        <waveformID channelCode="BHZ" locationCode="" networkCode="TA" stationCode="Q16A"></waveformID>
+        <methodID>smi:local/spick_0.0.0</methodID>
+        <phaseHint>P</phaseHint>
+        <polarity>negative</polarity>
+        <evaluationMode>manual</evaluationMode>
+        <evaluationStatus>reviewed</evaluationStatus>
+        <creationInfo>
+          <agencyID>NIOSH</agencyID>
+          <author>DC</author>
+          <creationTime>2018-10-10T20:26:42.406241Z</creationTime>
+        </creationInfo>
+      </pick>
+      <pick publicID="smi:local/b80bc155-101b-4844-a650-0d045e9b032f">
+        <time>
+          <value>2007-08-06T01:46:02.322160Z</value>
+        </time>
+        <waveformID channelCode="BHE" locationCode="" networkCode="TA" stationCode="S19A"></waveformID>
+        <methodID>smi:local/spick_0.0.0</methodID>
+        <phaseHint>?</phaseHint>
+        <evaluationMode>manual</evaluationMode>
+        <evaluationStatus>reviewed</evaluationStatus>
+        <creationInfo>
+          <agencyID>NIOSH</agencyID>
+          <author>DC</author>
+          <creationTime>2018-10-10T20:26:42.406556Z</creationTime>
+        </creationInfo>
+      </pick>
+      <pick publicID="smi:local/32089c8e-1748-4f26-825c-47d6232fbc35">
+        <time>
+          <value>2007-08-06T01:46:24.061870Z</value>
+        </time>
+        <waveformID channelCode="BHN" locationCode="" networkCode="US" stationCode="MVCO"></waveformID>
+        <methodID>smi:local/spick_0.0.0</methodID>
+        <phaseHint>?</phaseHint>
+        <evaluationMode>manual</evaluationMode>
+        <evaluationStatus>reviewed</evaluationStatus>
+        <creationInfo>
+          <agencyID>NIOSH</agencyID>
+          <author>DC</author>
+          <creationTime>2018-10-10T20:26:42.406795Z</creationTime>
+        </creationInfo>
+      </pick>
+      <pick publicID="smi:local/58dfacea-b7d3-486e-a119-40cd6da40064">
+        <time>
+          <value>2007-08-06T01:45:09.750170Z</value>
+        </time>
+        <waveformID channelCode="BHE" locationCode="" networkCode="UU" stationCode="SRU"></waveformID>
+        <methodID>smi:local/spick_0.0.0</methodID>
+        <phaseHint>S</phaseHint>
+        <evaluationMode>manual</evaluationMode>
+        <evaluationStatus>reviewed</evaluationStatus>
+        <creationInfo>
+          <agencyID>NIOSH</agencyID>
+          <author>DC</author>
+          <creationTime>2018-10-10T20:26:42.407054Z</creationTime>
+        </creationInfo>
+      </pick>
+      <pick publicID="smi:local/736236dd-4877-485b-8a9e-9caf053e0734">
+        <time>
+          <value>2007-08-06T01:45:20.849940Z</value>
+        </time>
+        <waveformID channelCode="BHZ" locationCode="" networkCode="TA" stationCode="S16A"></waveformID>
+        <methodID>smi:local/spick_0.0.0</methodID>
+        <phaseHint>?</phaseHint>
+        <evaluationMode>manual</evaluationMode>
+        <evaluationStatus>reviewed</evaluationStatus>
+        <creationInfo>
+          <agencyID>NIOSH</agencyID>
+          <author>DC</author>
+          <creationTime>2018-10-10T20:26:42.407288Z</creationTime>
+        </creationInfo>
+      </pick>
+      <pick publicID="smi:local/46a1da94-2692-4bee-872e-9637c3ba9815">
+        <time>
+          <value>2007-08-06T01:45:06.050904Z</value>
+          <uncertainty>0.05573534965515137</uncertainty>
+        </time>
+        <waveformID channelCode="BHZ" locationCode="" networkCode="TA" stationCode="Q18A"></waveformID>
+        <methodID>smi:local/spick_0.0.0</methodID>
+        <phaseHint>P</phaseHint>
+        <evaluationMode>manual</evaluationMode>
+        <evaluationStatus>reviewed</evaluationStatus>
+        <creationInfo>
+          <agencyID>NIOSH</agencyID>
+          <author>DC</author>
+          <creationTime>2018-10-10T20:26:42.407484Z</creationTime>
+        </creationInfo>
+      </pick>
+      <pick publicID="smi:local/2c897d65-310b-40de-bd74-cf823081ef5a">
+        <time>
+          <value>2007-08-06T01:45:33.921690Z</value>
+        </time>
+        <waveformID channelCode="BHZ" locationCode="" networkCode="TA" stationCode="R13A"></waveformID>
+        <methodID>smi:local/spick_0.0.0</methodID>
+        <phaseHint>?</phaseHint>
+        <evaluationMode>manual</evaluationMode>
+        <evaluationStatus>reviewed</evaluationStatus>
+        <creationInfo>
+          <agencyID>NIOSH</agencyID>
+          <author>DC</author>
+          <creationTime>2018-10-10T20:26:42.407710Z</creationTime>
+        </creationInfo>
+      </pick>
+      <pick publicID="smi:local/5af6ee3d-0bb9-4f87-afdd-d818d7c5ec85">
+        <time>
+          <value>2007-08-06T01:45:30.878180Z</value>
+        </time>
+        <waveformID channelCode="BHZ" locationCode="" networkCode="TA" stationCode="S19A"></waveformID>
+        <methodID>smi:local/spick_0.0.0</methodID>
+        <phaseHint>?</phaseHint>
+        <evaluationMode>manual</evaluationMode>
+        <evaluationStatus>reviewed</evaluationStatus>
+        <creationInfo>
+          <agencyID>NIOSH</agencyID>
+          <author>DC</author>
+          <creationTime>2018-10-10T20:26:42.408078Z</creationTime>
+        </creationInfo>
+      </pick>
+      <pick publicID="smi:local/8cbae931-fa43-4da3-8408-e40095386eba">
+        <time>
+          <value>2007-08-06T01:45:19.249040Z</value>
+        </time>
+        <waveformID channelCode="BHZ" locationCode="" networkCode="TA" stationCode="Q14A"></waveformID>
+        <methodID>smi:local/spick_0.0.0</methodID>
+        <phaseHint>?</phaseHint>
+        <evaluationMode>manual</evaluationMode>
+        <evaluationStatus>reviewed</evaluationStatus>
+        <creationInfo>
+          <agencyID>NIOSH</agencyID>
+          <author>DC</author>
+          <creationTime>2018-10-10T20:26:42.408323Z</creationTime>
+        </creationInfo>
+      </pick>
+      <pick publicID="smi:local/1f3ae087-4db1-4a14-b25b-3b78b0d2b96a">
+        <time>
+          <value>2007-08-06T01:45:03.686212Z</value>
+          <uncertainty>0.01869344711303711</uncertainty>
+        </time>
+        <waveformID channelCode="BHZ" locationCode="" networkCode="TA" stationCode="P18A"></waveformID>
+        <methodID>smi:local/spick_0.0.0</methodID>
+        <phaseHint>P</phaseHint>
+        <polarity>negative</polarity>
+        <evaluationMode>manual</evaluationMode>
+        <evaluationStatus>reviewed</evaluationStatus>
+        <creationInfo>
+          <agencyID>NIOSH</agencyID>
+          <author>DC</author>
+          <creationTime>2018-10-10T20:26:42.408522Z</creationTime>
+        </creationInfo>
+      </pick>
+      <pick publicID="smi:local/84e873ca-fd4e-4f7e-a199-4a7fbb9b9a9b">
+        <time>
+          <value>2007-08-06T01:44:55.936363Z</value>
+          <uncertainty>0.021522045135498047</uncertainty>
+        </time>
+        <waveformID channelCode="BHZ" locationCode="" networkCode="TA" stationCode="P17A"></waveformID>
+        <methodID>smi:local/spick_0.0.0</methodID>
+        <phaseHint>P</phaseHint>
+        <polarity>negative</polarity>
+        <evaluationMode>manual</evaluationMode>
+        <evaluationStatus>reviewed</evaluationStatus>
+        <creationInfo>
+          <agencyID>NIOSH</agencyID>
+          <author>DC</author>
+          <creationTime>2018-10-10T20:26:42.408721Z</creationTime>
+        </creationInfo>
+      </pick>
+      <pick publicID="smi:local/a58d1143-020a-4337-af4e-d66d393dab1e">
+        <time>
+          <value>2007-08-06T01:45:07.111000Z</value>
+        </time>
+        <waveformID channelCode="BHE" locationCode="" networkCode="TA" stationCode="Q16A"></waveformID>
+        <methodID>smi:local/spick_0.0.0</methodID>
+        <phaseHint>S</phaseHint>
+        <evaluationMode>manual</evaluationMode>
+        <evaluationStatus>reviewed</evaluationStatus>
+        <creationInfo>
+          <agencyID>NIOSH</agencyID>
+          <author>DC</author>
+          <creationTime>2018-10-10T20:26:42.408971Z</creationTime>
+        </creationInfo>
+      </pick>
+      <pick publicID="smi:local/cb73ea36-3e5a-40be-99e8-13945525c9c1">
+        <time>
+          <value>2007-08-06T01:45:25.186140Z</value>
+        </time>
+        <waveformID channelCode="BHZ" locationCode="" networkCode="TA" stationCode="S18A"></waveformID>
+        <methodID>smi:local/spick_0.0.0</methodID>
+        <phaseHint>?</phaseHint>
+        <evaluationMode>manual</evaluationMode>
+        <evaluationStatus>reviewed</evaluationStatus>
+        <creationInfo>
+          <agencyID>NIOSH</agencyID>
+          <author>DC</author>
+          <creationTime>2018-10-10T20:26:42.409199Z</creationTime>
+        </creationInfo>
+      </pick>
+      <pick publicID="smi:local/7c5d1d29-7d5b-48bf-966f-e7132aab83d0">
+        <time>
+          <value>2007-08-06T01:45:13.124742Z</value>
+          <uncertainty>0.18313813209533691</uncertainty>
+        </time>
+        <waveformID channelCode="BHZ" locationCode="" networkCode="TA" stationCode="O15A"></waveformID>
+        <methodID>smi:local/spick_0.0.0</methodID>
+        <phaseHint>P</phaseHint>
+        <evaluationMode>manual</evaluationMode>
+        <evaluationStatus>reviewed</evaluationStatus>
+        <creationInfo>
+          <agencyID>NIOSH</agencyID>
+          <author>DC</author>
+          <creationTime>2018-10-10T20:26:42.409393Z</creationTime>
+        </creationInfo>
+      </pick>
+      <pick publicID="smi:local/2e515360-7cc2-40a5-a5b8-eda0c270cb9d">
+        <time>
+          <value>2007-08-06T01:45:33.014160Z</value>
+        </time>
+        <waveformID channelCode="BHZ" locationCode="" networkCode="TA" stationCode="T17A"></waveformID>
+        <methodID>smi:local/spick_0.0.0</methodID>
+        <phaseHint>?</phaseHint>
+        <evaluationMode>manual</evaluationMode>
+        <evaluationStatus>reviewed</evaluationStatus>
+        <creationInfo>
+          <agencyID>NIOSH</agencyID>
+          <author>DC</author>
+          <creationTime>2018-10-10T20:26:42.409622Z</creationTime>
+        </creationInfo>
+      </pick>
+      <pick publicID="smi:local/4075bfbb-de5d-48c3-8f59-a56156cf06c2">
+        <time>
+          <value>2007-08-06T01:45:15.486600Z</value>
+        </time>
+        <waveformID channelCode="BHZ" locationCode="" networkCode="US" stationCode="DUG"></waveformID>
+        <methodID>smi:local/spick_0.0.0</methodID>
+        <phaseHint>?</phaseHint>
+        <evaluationMode>manual</evaluationMode>
+        <evaluationStatus>reviewed</evaluationStatus>
+        <creationInfo>
+          <agencyID>NIOSH</agencyID>
+          <author>DC</author>
+          <creationTime>2018-10-10T20:26:42.409847Z</creationTime>
+        </creationInfo>
+      </pick>
+      <pick publicID="smi:local/fecdc872-5955-4f9c-a456-cbbbb5944c77">
+        <time>
+          <value>2007-08-06T01:45:01.693552Z</value>
+          <uncertainty>0.04560089111328125</uncertainty>
+        </time>
+        <waveformID channelCode="BHN" locationCode="" networkCode="TA" stationCode="P17A"></waveformID>
+        <methodID>smi:local/spick_0.0.0</methodID>
+        <phaseHint>S</phaseHint>
+        <evaluationMode>manual</evaluationMode>
+        <evaluationStatus>reviewed</evaluationStatus>
+        <creationInfo>
+          <agencyID>NIOSH</agencyID>
+          <author>DC</author>
+          <creationTime>2018-10-10T20:26:42.410055Z</creationTime>
+        </creationInfo>
+      </pick>
+      <pick publicID="smi:local/0c88d425-0ec9-4af6-8542-dde555c00bff">
+        <time>
+          <value>2007-08-06T01:45:05.196477Z</value>
+          <uncertainty>0.039260149002075195</uncertainty>
+        </time>
+        <waveformID channelCode="BHZ" locationCode="" networkCode="TA" stationCode="P15A"></waveformID>
+        <methodID>smi:local/spick_0.0.0</methodID>
+        <phaseHint>P</phaseHint>
+        <polarity>negative</polarity>
+        <evaluationMode>manual</evaluationMode>
+        <evaluationStatus>reviewed</evaluationStatus>
+        <creationInfo>
+          <agencyID>NIOSH</agencyID>
+          <author>DC</author>
+          <creationTime>2018-10-10T20:26:42.410243Z</creationTime>
+        </creationInfo>
+      </pick>
+      <pick publicID="smi:local/564904c4-96e1-4308-b490-e852e1f249a6">
+        <time>
+          <value>2007-08-06T01:45:45.070690Z</value>
+        </time>
+        <waveformID channelCode="BHZ" locationCode="" networkCode="TA" stationCode="U15A"></waveformID>
+        <methodID>smi:local/spick_0.0.0</methodID>
+        <phaseHint>?</phaseHint>
+        <evaluationMode>manual</evaluationMode>
+        <evaluationStatus>reviewed</evaluationStatus>
+        <creationInfo>
+          <agencyID>NIOSH</agencyID>
+          <author>DC</author>
+          <creationTime>2018-10-10T20:26:42.410472Z</creationTime>
+        </creationInfo>
+      </pick>
+      <pick publicID="smi:local/84edf7f1-992a-4899-b9a2-2292d511ffe8">
+        <time>
+          <value>2007-08-06T01:44:56.669270Z</value>
+          <uncertainty>0.027343034744262695</uncertainty>
+        </time>
+        <waveformID channelCode="BHZ" locationCode="" networkCode="TA" stationCode="P16A"></waveformID>
+        <methodID>smi:local/spick_0.0.0</methodID>
+        <phaseHint>P</phaseHint>
+        <polarity>negative</polarity>
+        <evaluationMode>manual</evaluationMode>
+        <evaluationStatus>reviewed</evaluationStatus>
+        <creationInfo>
+          <agencyID>NIOSH</agencyID>
+          <author>DC</author>
+          <creationTime>2018-10-10T20:26:42.410660Z</creationTime>
+        </creationInfo>
+      </pick>
+      <pick publicID="smi:local/45b06651-1278-4f49-ba0a-f5d4672b847d">
+        <time>
+          <value>2007-08-06T01:46:06.990440Z</value>
+        </time>
+        <waveformID channelCode="BHN" locationCode="" networkCode="TA" stationCode="T18A"></waveformID>
+        <methodID>smi:local/spick_0.0.0</methodID>
+        <phaseHint>?</phaseHint>
+        <evaluationMode>manual</evaluationMode>
+        <evaluationStatus>reviewed</evaluationStatus>
+        <creationInfo>
+          <agencyID>NIOSH</agencyID>
+          <author>DC</author>
+          <creationTime>2018-10-10T20:26:42.410889Z</creationTime>
+        </creationInfo>
+      </pick>
+      <pick publicID="smi:local/65f88db4-c296-4092-b6d0-b3f95dbc2749">
+        <time>
+          <value>2007-08-06T01:45:18.212400Z</value>
+        </time>
+        <waveformID channelCode="BHZ" locationCode="" networkCode="TA" stationCode="Q19A"></waveformID>
+        <methodID>smi:local/spick_0.0.0</methodID>
+        <phaseHint>?</phaseHint>
+        <evaluationMode>manual</evaluationMode>
+        <evaluationStatus>reviewed</evaluationStatus>
+        <creationInfo>
+          <agencyID>NIOSH</agencyID>
+          <author>DC</author>
+          <creationTime>2018-10-10T20:26:42.411145Z</creationTime>
+        </creationInfo>
+      </pick>
+      <pick publicID="smi:local/c753b4f5-d840-4fe3-bd6d-3f4983877d7f">
+        <time>
+          <value>2007-08-06T01:46:05.602960Z</value>
+        </time>
+        <waveformID channelCode="BHN" locationCode="" networkCode="TA" stationCode="T17A"></waveformID>
+        <methodID>smi:local/spick_0.0.0</methodID>
+        <phaseHint>?</phaseHint>
+        <evaluationMode>manual</evaluationMode>
+        <evaluationStatus>reviewed</evaluationStatus>
+        <creationInfo>
+          <agencyID>NIOSH</agencyID>
+          <author>DC</author>
+          <creationTime>2018-10-10T20:26:42.411375Z</creationTime>
+        </creationInfo>
+      </pick>
+      <pick publicID="smi:local/f2e14aec-1cc0-41a3-bfdf-cafacca1e2ee">
+        <time>
+          <value>2007-08-06T01:45:33.536680Z</value>
+        </time>
+        <waveformID channelCode="BHZ" locationCode="" networkCode="TA" stationCode="T18A"></waveformID>
+        <methodID>smi:local/spick_0.0.0</methodID>
+        <phaseHint>?</phaseHint>
+        <evaluationMode>manual</evaluationMode>
+        <evaluationStatus>reviewed</evaluationStatus>
+        <creationInfo>
+          <agencyID>NIOSH</agencyID>
+          <author>DC</author>
+          <creationTime>2018-10-10T20:26:42.411632Z</creationTime>
+        </creationInfo>
+      </pick>
+      <pick publicID="smi:local/05b1c7b3-aafd-4b1f-90b9-674294f7a197">
+        <time>
+          <value>2007-08-06T01:46:30.424280Z</value>
+        </time>
+        <waveformID channelCode="BHN" locationCode="" networkCode="TA" stationCode="U16A"></waveformID>
+        <methodID>smi:local/spick_0.0.0</methodID>
+        <phaseHint>?</phaseHint>
+        <evaluationMode>manual</evaluationMode>
+        <evaluationStatus>reviewed</evaluationStatus>
+        <creationInfo>
+          <agencyID>NIOSH</agencyID>
+          <author>DC</author>
+          <creationTime>2018-10-10T20:26:42.411856Z</creationTime>
+        </creationInfo>
+      </pick>
+      <pick publicID="smi:local/a6d70396-9484-4eec-b930-1052dfa3b963">
+        <time>
+          <value>2007-08-06T01:45:15.487300Z</value>
+        </time>
+        <waveformID channelCode="BHZ" locationCode="" networkCode="TA" stationCode="P14A"></waveformID>
+        <methodID>smi:local/spick_0.0.0</methodID>
+        <phaseHint>?</phaseHint>
+        <evaluationMode>manual</evaluationMode>
+        <evaluationStatus>reviewed</evaluationStatus>
+        <creationInfo>
+          <agencyID>NIOSH</agencyID>
+          <author>DC</author>
+          <creationTime>2018-10-10T20:26:42.412077Z</creationTime>
+        </creationInfo>
+      </pick>
+      <pick publicID="smi:local/63556693-ec88-44ac-bfb1-65948d084d69">
+        <time>
+          <value>2007-08-06T01:45:09.340172Z</value>
+          <uncertainty>0.026000022888183594</uncertainty>
+        </time>
+        <waveformID channelCode="BHZ" locationCode="" networkCode="TA" stationCode="R17A"></waveformID>
+        <methodID>smi:local/spick_0.0.0</methodID>
+        <phaseHint>P</phaseHint>
+        <polarity>negative</polarity>
+        <evaluationMode>manual</evaluationMode>
+        <evaluationStatus>reviewed</evaluationStatus>
+        <creationInfo>
+          <agencyID>NIOSH</agencyID>
+          <author>DC</author>
+          <creationTime>2018-10-10T20:26:42.412260Z</creationTime>
+        </creationInfo>
+      </pick>
+      <pick publicID="smi:local/946374d4-ab71-4de7-834a-f4170705e124">
+        <time>
+          <value>2007-08-06T01:46:25.487960Z</value>
+        </time>
+        <waveformID channelCode="BHN" locationCode="" networkCode="TA" stationCode="U15A"></waveformID>
+        <methodID>smi:local/spick_0.0.0</methodID>
+        <phaseHint>?</phaseHint>
+        <evaluationMode>manual</evaluationMode>
+        <evaluationStatus>reviewed</evaluationStatus>
+        <creationInfo>
+          <agencyID>NIOSH</agencyID>
+          <author>DC</author>
+          <creationTime>2018-10-10T20:26:42.412474Z</creationTime>
+        </creationInfo>
+      </pick>
+      <pick publicID="smi:local/8cc899f6-6e64-40f6-8a62-185efb24c8d6">
+        <time>
+          <value>2007-08-06T01:45:23.511170Z</value>
+        </time>
+        <waveformID channelCode="BHE" locationCode="" networkCode="TA" stationCode="R17A"></waveformID>
+        <methodID>smi:local/spick_0.0.0</methodID>
+        <phaseHint>S</phaseHint>
+        <evaluationMode>manual</evaluationMode>
+        <evaluationStatus>reviewed</evaluationStatus>
+        <creationInfo>
+          <agencyID>NIOSH</agencyID>
+          <author>DC</author>
+          <creationTime>2018-10-10T20:26:42.412700Z</creationTime>
+        </creationInfo>
+      </pick>
+      <pick publicID="smi:local/1e042d0b-e6ab-471e-b6fe-0a94cfc4fb98">
+        <time>
+          <value>2007-08-06T01:45:51.974580Z</value>
+        </time>
+        <waveformID channelCode="BHN" locationCode="" networkCode="TA" stationCode="S18A"></waveformID>
+        <methodID>smi:local/spick_0.0.0</methodID>
+        <phaseHint>?</phaseHint>
+        <evaluationMode>manual</evaluationMode>
+        <evaluationStatus>reviewed</evaluationStatus>
+        <creationInfo>
+          <agencyID>NIOSH</agencyID>
+          <author>DC</author>
+          <creationTime>2018-10-10T20:26:42.412916Z</creationTime>
+        </creationInfo>
+      </pick>
+      <pick publicID="smi:local/779f3098-9fcb-4f7d-a743-45c539a0b889">
+        <time>
+          <value>2007-08-06T01:45:00.841540Z</value>
+        </time>
+        <waveformID channelCode="BHZ" locationCode="" networkCode="UU" stationCode="SRU"></waveformID>
+        <methodID>smi:local/spick_0.0.0</methodID>
+        <phaseHint>P</phaseHint>
+        <evaluationMode>manual</evaluationMode>
+        <evaluationStatus>reviewed</evaluationStatus>
+        <creationInfo>
+          <agencyID>NIOSH</agencyID>
+          <author>DC</author>
+          <creationTime>2018-10-10T20:26:42.413135Z</creationTime>
+        </creationInfo>
+      </pick>
+      <pick publicID="smi:local/28ef38bd-c05e-4147-b09b-49c31f04231e">
+        <time>
+          <value>2007-08-06T01:45:16.152450Z</value>
+        </time>
+        <waveformID channelCode="BHZ" locationCode="" networkCode="TA" stationCode="R18A"></waveformID>
+        <methodID>smi:local/spick_0.0.0</methodID>
+        <phaseHint>?</phaseHint>
+        <evaluationMode>manual</evaluationMode>
+        <evaluationStatus>reviewed</evaluationStatus>
+        <creationInfo>
+          <agencyID>NIOSH</agencyID>
+          <author>DC</author>
+          <creationTime>2018-10-10T20:26:42.413351Z</creationTime>
+        </creationInfo>
+      </pick>
+      <pick publicID="smi:local/50bdfdaa-5699-471d-8340-ffff105f0ce7">
+        <time>
+          <value>2007-08-06T01:45:14.587473Z</value>
+          <uncertainty>0.14540386199951172</uncertainty>
+        </time>
+        <waveformID channelCode="BHE" locationCode="" networkCode="TA" stationCode="P18A"></waveformID>
+        <methodID>smi:local/spick_0.0.0</methodID>
+        <phaseHint>S</phaseHint>
+        <polarity>negative</polarity>
+        <evaluationMode>manual</evaluationMode>
+        <evaluationStatus>reviewed</evaluationStatus>
+        <creationInfo>
+          <agencyID>NIOSH</agencyID>
+          <author>DC</author>
+          <creationTime>2018-10-10T20:26:42.413531Z</creationTime>
+        </creationInfo>
+      </pick>
+    </event>
+  </eventParameters>
+</q:quakeml>

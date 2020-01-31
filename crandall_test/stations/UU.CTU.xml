@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<FDSNStationXML xmlns="http://www.fdsn.org/xml/station/1" schemaVersion="1.0" xsi:schemaLocation="http://www.fdsn.org/xml/station/1 http://www.fdsn.org/xml/station/fdsn-station-1.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:iris="http://www.fdsn.org/xml/station/1/iris">
+ <Source>IRIS-DMC</Source>
+ <Sender>IRIS-DMC</Sender>
+ <Module>IRIS WEB SERVICE: fdsnws-station | version: 1.1.37</Module>
+ <ModuleURI>http://service.iris.edu/fdsnws/station/1/query</ModuleURI>
+ <Created>2020-01-31T19:16:27</Created>
+ <Network code="UU" startDate="1962-01-01T00:00:00" endDate="2599-12-31T23:59:59" restrictedStatus="open">
+  <Description>University of Utah Regional Seismic Network</Description>
+  <TotalNumberStations>330</TotalNumberStations>
+  <SelectedNumberStations>1</SelectedNumberStations>
+  <Station code="CTU" startDate="1997-08-27T00:00:00" endDate="2599-12-31T23:59:59" restrictedStatus="open" iris:alternateNetworkCodes="_US-REGIONAL,_REALTIME,.UNRESTRICTED">
+   <Latitude>40.692501</Latitude>
+   <Longitude>-111.750343</Longitude>
+   <Elevation>1731.0</Elevation>
+   <Site>
+    <Name>Camp Tracy, UT, USA</Name>
+   </Site>
+   <CreationDate>1997-08-27T00:00:00</CreationDate>
+   <TotalNumberChannels>21</TotalNumberChannels>
+   <SelectedNumberChannels>3</SelectedNumberChannels>
+   <Channel code="HHE" endDate="2011-06-13T23:59:59" locationCode="" restrictedStatus="open" startDate="1998-12-31T00:00:00">
+    <Comment>
+     <Value>T4150</Value>
+    </Comment>
+    <Comment>
+     <Value>T4150</Value>
+     <BeginEffectiveTime>1997-08-27T00:00:00</BeginEffectiveTime>
+     <EndEffectiveTime>2599-12-31T23:59:59</EndEffectiveTime>
+    </Comment>
+    <Comment>
+     <Value>T4150</Value>
+     <BeginEffectiveTime>1998-12-31T00:00:00</BeginEffectiveTime>
+     <EndEffectiveTime>2599-12-31T23:59:59</EndEffectiveTime>
+    </Comment>
+    <Latitude>40.692501</Latitude>
+    <Longitude>-111.750343</Longitude>
+    <Elevation>1731</Elevation>
+    <Depth>0</Depth>
+    <Azimuth>90</Azimuth>
+    <Dip>0</Dip>
+    <Type>CONTINUOUS</Type>
+    <Type>GEOPHYSICAL</Type>
+    <SampleRate>1E02</SampleRate>
+    <ClockDrift>1E-04</ClockDrift>
+    <CalibrationUnits>
+     <Name>COUNTS</Name>
+     <Description>Digital Counts</Description>
+    </CalibrationUnits>
+    <Sensor>
+     <Description>Guralp CMG-40T seismometer</Description>
+    </Sensor>
+    <Response>
+     <InstrumentSensitivity>
+      <Value>-1.2719E10</Value>
+      <Frequency>5E0</Frequency>
+      <InputUnits>
+       <Name>M</Name>
+       <Description>Earth Displacement in Meters</Description>
+      </InputUnits>
+      <OutputUnits>
+       <Name>COUNTS</Name>
+       <Description>Digital Counts</Description>
+      </OutputUnits>
+     </InstrumentSensitivity>
+     <Stage number="1">
+      <PolesZeros>
+       <InputUnits>
+        <Name>M</Name>
+        <Description>Earth Displacement in Meters</Description>
+       </InputUnits>
+       <OutputUnits>
+        <Name>COUNTS</Name>
+        <Description>Digital Counts</Description>
+       </OutputUnits>
+       <PzTransferFunctionType>LAPLACE (RADIANS/SECOND)</PzTransferFunctionType>
+       <NormalizationFactor>0.010575</NormalizationFactor>
+       <NormalizationFrequency>5.00000</NormalizationFrequency>
+       <Zero number="0">
+        <Real minusError="0.00000" plusError="0.00000">0.00000</Real>
+        <Imaginary minusError="0.00000" plusError="0.00000">0.00000</Imaginary>
+       </Zero>
+       <Zero number="1">
+        <Real minusError="0.00000" plusError="0.00000">0.00000</Real>
+        <Imaginary minusError="0.00000" plusError="0.00000">0.00000</Imaginary>
+       </Zero>
+       <Zero number="2">
+        <Real minusError="0.00000" plusError="0.00000">0.00000</Real>
+        <Imaginary minusError="0.00000" plusError="0.00000">0.00000</Imaginary>
+       </Zero>
+       <Zero number="3">
+        <Real minusError="0.00000" plusError="0.00000">923.600</Real>
+        <Imaginary minusError="0.00000" plusError="0.00000">0.00000</Imaginary>
+       </Zero>
+       <Pole number="0">
+        <Real minusError="0.00000" plusError="0.00000">-0.217300</Real>
+        <Imaginary minusError="0.00000" plusError="0.00000">0.222800</Imaginary>
+       </Pole>
+       <Pole number="1">
+        <Real minusError="0.00000" plusError="0.00000">-0.217300</Real>
+        <Imaginary minusError="0.00000" plusError="0.00000">-0.222800</Imaginary>
+       </Pole>
+       <Pole number="2">
+        <Real minusError="0.00000" plusError="0.00000">-305.400</Real>
+        <Imaginary minusError="0.00000" plusError="0.00000">0.00000</Imaginary>
+       </Pole>
+      </PolesZeros>
+     </Stage>
+    </Response>
+   </Channel>
+   <Channel code="HHN" endDate="2011-06-13T23:59:59" locationCode="" restrictedStatus="open" startDate="1998-12-31T00:00:00">
+    <Comment>
+     <Value>T4150</Value>
+    </Comment>
+    <Comment>
+     <Value>T4150</Value>
+     <BeginEffectiveTime>1997-08-27T00:00:00</BeginEffectiveTime>
+     <EndEffectiveTime>2599-12-31T23:59:59</EndEffectiveTime>
+    </Comment>
+    <Comment>
+     <Value>T4150</Value>
+     <BeginEffectiveTime>1998-12-31T00:00:00</BeginEffectiveTime>
+     <EndEffectiveTime>2599-12-31T23:59:59</EndEffectiveTime>
+    </Comment>
+    <Latitude>40.692501</Latitude>
+    <Longitude>-111.750343</Longitude>
+    <Elevation>1731</Elevation>
+    <Depth>0</Depth>
+    <Azimuth>0</Azimuth>
+    <Dip>0</Dip>
+    <Type>CONTINUOUS</Type>
+    <Type>GEOPHYSICAL</Type>
+    <SampleRate>1E02</SampleRate>
+    <ClockDrift>1E-04</ClockDrift>
+    <CalibrationUnits>
+     <Name>COUNTS</Name>
+     <Description>Digital Counts</Description>
+    </CalibrationUnits>
+    <Sensor>
+     <Description>Guralp CMG-40T seismometer</Description>
+    </Sensor>
+    <Response>
+     <InstrumentSensitivity>
+      <Value>-1.26623E10</Value>
+      <Frequency>5E0</Frequency>
+      <InputUnits>
+       <Name>M</Name>
+       <Description>Earth Displacement in Meters</Description>
+      </InputUnits>
+      <OutputUnits>
+       <Name>COUNTS</Name>
+       <Description>Digital Counts</Description>
+      </OutputUnits>
+     </InstrumentSensitivity>
+     <Stage number="1">
+      <PolesZeros>
+       <InputUnits>
+        <Name>M</Name>
+        <Description>Earth Displacement in Meters</Description>
+       </InputUnits>
+       <OutputUnits>
+        <Name>COUNTS</Name>
+        <Description>Digital Counts</Description>
+       </OutputUnits>
+       <PzTransferFunctionType>LAPLACE (RADIANS/SECOND)</PzTransferFunctionType>
+       <NormalizationFactor>0.010575</NormalizationFactor>
+       <NormalizationFrequency>5.00000</NormalizationFrequency>
+       <Zero number="0">
+        <Real minusError="0.00000" plusError="0.00000">0.00000</Real>
+        <Imaginary minusError="0.00000" plusError="0.00000">0.00000</Imaginary>
+       </Zero>
+       <Zero number="1">
+        <Real minusError="0.00000" plusError="0.00000">0.00000</Real>
+        <Imaginary minusError="0.00000" plusError="0.00000">0.00000</Imaginary>
+       </Zero>
+       <Zero number="2">
+        <Real minusError="0.00000" plusError="0.00000">0.00000</Real>
+        <Imaginary minusError="0.00000" plusError="0.00000">0.00000</Imaginary>
+       </Zero>
+       <Zero number="3">
+        <Real minusError="0.00000" plusError="0.00000">923.600</Real>
+        <Imaginary minusError="0.00000" plusError="0.00000">0.00000</Imaginary>
+       </Zero>
+       <Pole number="0">
+        <Real minusError="0.00000" plusError="0.00000">-0.216700</Real>
+        <Imaginary minusError="0.00000" plusError="0.00000">0.219700</Imaginary>
+       </Pole>
+       <Pole number="1">
+        <Real minusError="0.00000" plusError="0.00000">-0.216700</Real>
+        <Imaginary minusError="0.00000" plusError="0.00000">-0.219700</Imaginary>
+       </Pole>
+       <Pole number="2">
+        <Real minusError="0.00000" plusError="0.00000">-305.400</Real>
+        <Imaginary minusError="0.00000" plusError="0.00000">0.00000</Imaginary>
+       </Pole>
+      </PolesZeros>
+     </Stage>
+    </Response>
+   </Channel>
+   <Channel code="HHZ" endDate="2011-06-13T23:59:59" locationCode="" restrictedStatus="open" startDate="1998-12-31T00:00:00">
+    <Comment>
+     <Value>T4150</Value>
+    </Comment>
+    <Comment>
+     <Value>T4150</Value>
+     <BeginEffectiveTime>1997-08-27T00:00:00</BeginEffectiveTime>
+     <EndEffectiveTime>2599-12-31T23:59:59</EndEffectiveTime>
+    </Comment>
+    <Comment>
+     <Value>T4150</Value>
+     <BeginEffectiveTime>1998-12-31T00:00:00</BeginEffectiveTime>
+     <EndEffectiveTime>2599-12-31T23:59:59</EndEffectiveTime>
+    </Comment>
+    <Latitude>40.692501</Latitude>
+    <Longitude>-111.750343</Longitude>
+    <Elevation>1731</Elevation>
+    <Depth>0</Depth>
+    <Azimuth>0</Azimuth>
+    <Dip>-90</Dip>
+    <Type>CONTINUOUS</Type>
+    <Type>GEOPHYSICAL</Type>
+    <SampleRate>1E02</SampleRate>
+    <ClockDrift>1E-04</ClockDrift>
+    <CalibrationUnits>
+     <Name>COUNTS</Name>
+     <Description>Digital Counts</Description>
+    </CalibrationUnits>
+    <Sensor>
+     <Description>Guralp CMG-40T seismometer</Description>
+    </Sensor>
+    <Response>
+     <InstrumentSensitivity>
+      <Value>-1.33431E10</Value>
+      <Frequency>5E0</Frequency>
+      <InputUnits>
+       <Name>M</Name>
+       <Description>Earth Displacement in Meters</Description>
+      </InputUnits>
+      <OutputUnits>
+       <Name>COUNTS</Name>
+       <Description>Digital Counts</Description>
+      </OutputUnits>
+     </InstrumentSensitivity>
+     <Stage number="1">
+      <PolesZeros>
+       <InputUnits>
+        <Name>M</Name>
+        <Description>Earth Displacement in Meters</Description>
+       </InputUnits>
+       <OutputUnits>
+        <Name>COUNTS</Name>
+        <Description>Digital Counts</Description>
+       </OutputUnits>
+       <PzTransferFunctionType>LAPLACE (RADIANS/SECOND)</PzTransferFunctionType>
+       <NormalizationFactor>0.010575</NormalizationFactor>
+       <NormalizationFrequency>5.00000</NormalizationFrequency>
+       <Zero number="0">
+        <Real minusError="0.00000" plusError="0.00000">0.00000</Real>
+        <Imaginary minusError="0.00000" plusError="0.00000">0.00000</Imaginary>
+       </Zero>
+       <Zero number="1">
+        <Real minusError="0.00000" plusError="0.00000">0.00000</Real>
+        <Imaginary minusError="0.00000" plusError="0.00000">0.00000</Imaginary>
+       </Zero>
+       <Zero number="2">
+        <Real minusError="0.00000" plusError="0.00000">0.00000</Real>
+        <Imaginary minusError="0.00000" plusError="0.00000">0.00000</Imaginary>
+       </Zero>
+       <Zero number="3">
+        <Real minusError="0.00000" plusError="0.00000">923.600</Real>
+        <Imaginary minusError="0.00000" plusError="0.00000">0.00000</Imaginary>
+       </Zero>
+       <Pole number="0">
+        <Real minusError="0.00000" plusError="0.00000">-0.217800</Real>
+        <Imaginary minusError="0.00000" plusError="0.00000">0.219500</Imaginary>
+       </Pole>
+       <Pole number="1">
+        <Real minusError="0.00000" plusError="0.00000">-0.217800</Real>
+        <Imaginary minusError="0.00000" plusError="0.00000">-0.219500</Imaginary>
+       </Pole>
+       <Pole number="2">
+        <Real minusError="0.00000" plusError="0.00000">-305.400</Real>
+        <Imaginary minusError="0.00000" plusError="0.00000">0.00000</Imaginary>
+       </Pole>
+      </PolesZeros>
+     </Stage>
+    </Response>
+   </Channel>
+  </Station>
+ </Network>
+</FDSNStationXML>

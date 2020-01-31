@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<FDSNStationXML xmlns="http://www.fdsn.org/xml/station/1" schemaVersion="1.0" xsi:schemaLocation="http://www.fdsn.org/xml/station/1 http://www.fdsn.org/xml/station/fdsn-station-1.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:iris="http://www.fdsn.org/xml/station/1/iris">
+ <Source>IRIS-DMC</Source>
+ <Sender>IRIS-DMC</Sender>
+ <Module>IRIS WEB SERVICE: fdsnws-station | version: 1.1.37</Module>
+ <ModuleURI>http://service.iris.edu/fdsnws/station/1/query</ModuleURI>
+ <Created>2020-01-31T19:15:45</Created>
+ <Network code="UU" startDate="1962-01-01T00:00:00" endDate="2599-12-31T23:59:59" restrictedStatus="open">
+  <Description>University of Utah Regional Seismic Network</Description>
+  <TotalNumberStations>330</TotalNumberStations>
+  <SelectedNumberStations>1</SelectedNumberStations>
+  <Station code="NOQ" startDate="1992-06-09T00:00:00" endDate="2599-12-31T23:59:59" restrictedStatus="open" iris:alternateNetworkCodes="_US-REGIONAL,_REALTIME,.UNRESTRICTED">
+   <Latitude>40.6525</Latitude>
+   <Longitude>-112.120331</Longitude>
+   <Elevation>1622.0</Elevation>
+   <Site>
+    <Name>North Oquirrh Mountains, UT, USA</Name>
+   </Site>
+   <CreationDate>1992-06-09T00:00:00</CreationDate>
+   <TotalNumberChannels>35</TotalNumberChannels>
+   <SelectedNumberChannels>3</SelectedNumberChannels>
+   <Channel code="HHE" endDate="2599-12-31T23:59:59" locationCode="01" restrictedStatus="open" startDate="2013-04-01T00:00:00">
+    <Comment>
+     <Value>000917</Value>
+    </Comment>
+    <Comment>
+     <Value>000917</Value>
+     <BeginEffectiveTime>2013-04-01T00:00:00</BeginEffectiveTime>
+     <EndEffectiveTime>2599-12-31T23:59:59</EndEffectiveTime>
+    </Comment>
+    <Latitude>40.6525</Latitude>
+    <Longitude>-112.120331</Longitude>
+    <Elevation>1622</Elevation>
+    <Depth>0</Depth>
+    <Azimuth>90</Azimuth>
+    <Dip>0</Dip>
+    <Type>CONTINUOUS</Type>
+    <Type>GEOPHYSICAL</Type>
+    <SampleRate>1E02</SampleRate>
+    <ClockDrift>1E-04</ClockDrift>
+    <CalibrationUnits>
+     <Name>COUNTS</Name>
+     <Description>Digital Counts</Description>
+    </CalibrationUnits>
+    <Sensor>
+     <Description>Nanometrics Trillium 120 seismometer</Description>
+    </Sensor>
+    <Response>
+     <InstrumentSensitivity>
+      <Value>2.52317E10</Value>
+      <Frequency>5E0</Frequency>
+      <InputUnits>
+       <Name>M</Name>
+       <Description>Earth Displacement in Meters</Description>
+      </InputUnits>
+      <OutputUnits>
+       <Name>COUNTS</Name>
+       <Description>Digital Counts</Description>
+      </OutputUnits>
+     </InstrumentSensitivity>
+     <Stage number="1">
+      <PolesZeros>
+       <InputUnits>
+        <Name>M</Name>
+        <Description>Earth Displacement in Meters</Description>
+       </InputUnits>
+       <OutputUnits>
+        <Name>COUNTS</Name>
+        <Description>Digital Counts</Description>
+       </OutputUnits>
+       <PzTransferFunctionType>LAPLACE (RADIANS/SECOND)</PzTransferFunctionType>
+       <NormalizationFactor>9226.08</NormalizationFactor>
+       <NormalizationFrequency>5.00000</NormalizationFrequency>
+       <Zero number="0">
+        <Real minusError="0.00000" plusError="0.00000">0.00000</Real>
+        <Imaginary minusError="0.00000" plusError="0.00000">0.00000</Imaginary>
+       </Zero>
+       <Zero number="1">
+        <Real minusError="0.00000" plusError="0.00000">0.00000</Real>
+        <Imaginary minusError="0.00000" plusError="0.00000">0.00000</Imaginary>
+       </Zero>
+       <Zero number="2">
+        <Real minusError="0.00000" plusError="0.00000">0.00000</Real>
+        <Imaginary minusError="0.00000" plusError="0.00000">0.00000</Imaginary>
+       </Zero>
+       <Zero number="3">
+        <Real minusError="0.00000" plusError="0.00000">-160.700</Real>
+        <Imaginary minusError="0.00000" plusError="0.00000">0.00000</Imaginary>
+       </Zero>
+       <Zero number="4">
+        <Real minusError="0.00000" plusError="0.00000">-90.0000</Real>
+        <Imaginary minusError="0.00000" plusError="0.00000">0.00000</Imaginary>
+       </Zero>
+       <Zero number="5">
+        <Real minusError="0.00000" plusError="0.00000">-3108.00</Real>
+        <Imaginary minusError="0.00000" plusError="0.00000">0.00000</Imaginary>
+       </Zero>
+       <Pole number="0">
+        <Real minusError="0.00000" plusError="0.00000">-0.0385200</Real>
+        <Imaginary minusError="0.00000" plusError="0.00000">-0.0365800</Imaginary>
+       </Pole>
+       <Pole number="1">
+        <Real minusError="0.00000" plusError="0.00000">-0.0385200</Real>
+        <Imaginary minusError="0.00000" plusError="0.00000">0.0365800</Imaginary>
+       </Pole>
+       <Pole number="2">
+        <Real minusError="0.00000" plusError="0.00000">-178.000</Real>
+        <Imaginary minusError="0.00000" plusError="0.00000">0.00000</Imaginary>
+       </Pole>
+       <Pole number="3">
+        <Real minusError="0.00000" plusError="0.00000">-135.000</Real>
+        <Imaginary minusError="0.00000" plusError="0.00000">-160.000</Imaginary>
+       </Pole>
+       <Pole number="4">
+        <Real minusError="0.00000" plusError="0.00000">-135.000</Real>
+        <Imaginary minusError="0.00000" plusError="0.00000">160.000</Imaginary>
+       </Pole>
+       <Pole number="5">
+        <Real minusError="0.00000" plusError="0.00000">-671.000</Real>
+        <Imaginary minusError="0.00000" plusError="0.00000">-1154.00</Imaginary>
+       </Pole>
+       <Pole number="6">
+        <Real minusError="0.00000" plusError="0.00000">-671.000</Real>
+        <Imaginary minusError="0.00000" plusError="0.00000">1154.00</Imaginary>
+       </Pole>
+      </PolesZeros>
+     </Stage>
+    </Response>
+   </Channel>
+   <Channel code="HHN" endDate="2599-12-31T23:59:59" locationCode="01" restrictedStatus="open" startDate="2013-04-01T00:00:00">
+    <Comment>
+     <Value>000917</Value>
+    </Comment>
+    <Comment>
+     <Value>000917</Value>
+     <BeginEffectiveTime>2013-04-01T00:00:00</BeginEffectiveTime>
+     <EndEffectiveTime>2599-12-31T23:59:59</EndEffectiveTime>
+    </Comment>
+    <Latitude>40.6525</Latitude>
+    <Longitude>-112.120331</Longitude>
+    <Elevation>1622</Elevation>
+    <Depth>0</Depth>
+    <Azimuth>0</Azimuth>
+    <Dip>0</Dip>
+    <Type>CONTINUOUS</Type>
+    <Type>GEOPHYSICAL</Type>
+    <SampleRate>1E02</SampleRate>
+    <ClockDrift>1E-04</ClockDrift>
+    <CalibrationUnits>
+     <Name>COUNTS</Name>
+     <Description>Digital Counts</Description>
+    </CalibrationUnits>
+    <Sensor>
+     <Description>Nanometrics Trillium 120 seismometer</Description>
+    </Sensor>
+    <Response>
+     <InstrumentSensitivity>
+      <Value>2.52317E10</Value>
+      <Frequency>5E0</Frequency>
+      <InputUnits>
+       <Name>M</Name>
+       <Description>Earth Displacement in Meters</Description>
+      </InputUnits>
+      <OutputUnits>
+       <Name>COUNTS</Name>
+       <Description>Digital Counts</Description>
+      </OutputUnits>
+     </InstrumentSensitivity>
+     <Stage number="1">
+      <PolesZeros>
+       <InputUnits>
+        <Name>M</Name>
+        <Description>Earth Displacement in Meters</Description>
+       </InputUnits>
+       <OutputUnits>
+        <Name>COUNTS</Name>
+        <Description>Digital Counts</Description>
+       </OutputUnits>
+       <PzTransferFunctionType>LAPLACE (RADIANS/SECOND)</PzTransferFunctionType>
+       <NormalizationFactor>9226.08</NormalizationFactor>
+       <NormalizationFrequency>5.00000</NormalizationFrequency>
+       <Zero number="0">
+        <Real minusError="0.00000" plusError="0.00000">0.00000</Real>
+        <Imaginary minusError="0.00000" plusError="0.00000">0.00000</Imaginary>
+       </Zero>
+       <Zero number="1">
+        <Real minusError="0.00000" plusError="0.00000">0.00000</Real>
+        <Imaginary minusError="0.00000" plusError="0.00000">0.00000</Imaginary>
+       </Zero>
+       <Zero number="2">
+        <Real minusError="0.00000" plusError="0.00000">0.00000</Real>
+        <Imaginary minusError="0.00000" plusError="0.00000">0.00000</Imaginary>
+       </Zero>
+       <Zero number="3">
+        <Real minusError="0.00000" plusError="0.00000">-160.700</Real>
+        <Imaginary minusError="0.00000" plusError="0.00000">0.00000</Imaginary>
+       </Zero>
+       <Zero number="4">
+        <Real minusError="0.00000" plusError="0.00000">-90.0000</Real>
+        <Imaginary minusError="0.00000" plusError="0.00000">0.00000</Imaginary>
+       </Zero>
+       <Zero number="5">
+        <Real minusError="0.00000" plusError="0.00000">-3108.00</Real>
+        <Imaginary minusError="0.00000" plusError="0.00000">0.00000</Imaginary>
+       </Zero>
+       <Pole number="0">
+        <Real minusError="0.00000" plusError="0.00000">-0.0385200</Real>
+        <Imaginary minusError="0.00000" plusError="0.00000">-0.0365800</Imaginary>
+       </Pole>
+       <Pole number="1">
+        <Real minusError="0.00000" plusError="0.00000">-0.0385200</Real>
+        <Imaginary minusError="0.00000" plusError="0.00000">0.0365800</Imaginary>
+       </Pole>
+       <Pole number="2">
+        <Real minusError="0.00000" plusError="0.00000">-178.000</Real>
+        <Imaginary minusError="0.00000" plusError="0.00000">0.00000</Imaginary>
+       </Pole>
+       <Pole number="3">
+        <Real minusError="0.00000" plusError="0.00000">-135.000</Real>
+        <Imaginary minusError="0.00000" plusError="0.00000">-160.000</Imaginary>
+       </Pole>
+       <Pole number="4">
+        <Real minusError="0.00000" plusError="0.00000">-135.000</Real>
+        <Imaginary minusError="0.00000" plusError="0.00000">160.000</Imaginary>
+       </Pole>
+       <Pole number="5">
+        <Real minusError="0.00000" plusError="0.00000">-671.000</Real>
+        <Imaginary minusError="0.00000" plusError="0.00000">-1154.00</Imaginary>
+       </Pole>
+       <Pole number="6">
+        <Real minusError="0.00000" plusError="0.00000">-671.000</Real>
+        <Imaginary minusError="0.00000" plusError="0.00000">1154.00</Imaginary>
+       </Pole>
+      </PolesZeros>
+     </Stage>
+    </Response>
+   </Channel>
+   <Channel code="HHZ" endDate="2599-12-31T23:59:59" locationCode="01" restrictedStatus="open" startDate="2013-04-01T00:00:00">
+    <Comment>
+     <Value>000917</Value>
+    </Comment>
+    <Comment>
+     <Value>000917</Value>
+     <BeginEffectiveTime>2013-04-01T00:00:00</BeginEffectiveTime>
+     <EndEffectiveTime>2599-12-31T23:59:59</EndEffectiveTime>
+    </Comment>
+    <Latitude>40.6525</Latitude>
+    <Longitude>-112.120331</Longitude>
+    <Elevation>1622</Elevation>
+    <Depth>0</Depth>
+    <Azimuth>0</Azimuth>
+    <Dip>-90</Dip>
+    <Type>CONTINUOUS</Type>
+    <Type>GEOPHYSICAL</Type>
+    <SampleRate>1E02</SampleRate>
+    <ClockDrift>1E-04</ClockDrift>
+    <CalibrationUnits>
+     <Name>COUNTS</Name>
+     <Description>Digital Counts</Description>
+    </CalibrationUnits>
+    <Sensor>
+     <Description>Nanometrics Trillium 120 seismometer</Description>
+    </Sensor>
+    <Response>
+     <InstrumentSensitivity>
+      <Value>2.52317E10</Value>
+      <Frequency>5E0</Frequency>
+      <InputUnits>
+       <Name>M</Name>
+       <Description>Earth Displacement in Meters</Description>
+      </InputUnits>
+      <OutputUnits>
+       <Name>COUNTS</Name>
+       <Description>Digital Counts</Description>
+      </OutputUnits>
+     </InstrumentSensitivity>
+     <Stage number="1">
+      <PolesZeros>
+       <InputUnits>
+        <Name>M</Name>
+        <Description>Earth Displacement in Meters</Description>
+       </InputUnits>
+       <OutputUnits>
+        <Name>COUNTS</Name>
+        <Description>Digital Counts</Description>
+       </OutputUnits>
+       <PzTransferFunctionType>LAPLACE (RADIANS/SECOND)</PzTransferFunctionType>
+       <NormalizationFactor>9226.08</NormalizationFactor>
+       <NormalizationFrequency>5.00000</NormalizationFrequency>
+       <Zero number="0">
+        <Real minusError="0.00000" plusError="0.00000">0.00000</Real>
+        <Imaginary minusError="0.00000" plusError="0.00000">0.00000</Imaginary>
+       </Zero>
+       <Zero number="1">
+        <Real minusError="0.00000" plusError="0.00000">0.00000</Real>
+        <Imaginary minusError="0.00000" plusError="0.00000">0.00000</Imaginary>
+       </Zero>
+       <Zero number="2">
+        <Real minusError="0.00000" plusError="0.00000">0.00000</Real>
+        <Imaginary minusError="0.00000" plusError="0.00000">0.00000</Imaginary>
+       </Zero>
+       <Zero number="3">
+        <Real minusError="0.00000" plusError="0.00000">-160.700</Real>
+        <Imaginary minusError="0.00000" plusError="0.00000">0.00000</Imaginary>
+       </Zero>
+       <Zero number="4">
+        <Real minusError="0.00000" plusError="0.00000">-90.0000</Real>
+        <Imaginary minusError="0.00000" plusError="0.00000">0.00000</Imaginary>
+       </Zero>
+       <Zero number="5">
+        <Real minusError="0.00000" plusError="0.00000">-3108.00</Real>
+        <Imaginary minusError="0.00000" plusError="0.00000">0.00000</Imaginary>
+       </Zero>
+       <Pole number="0">
+        <Real minusError="0.00000" plusError="0.00000">-0.0385200</Real>
+        <Imaginary minusError="0.00000" plusError="0.00000">-0.0365800</Imaginary>
+       </Pole>
+       <Pole number="1">
+        <Real minusError="0.00000" plusError="0.00000">-0.0385200</Real>
+        <Imaginary minusError="0.00000" plusError="0.00000">0.0365800</Imaginary>
+       </Pole>
+       <Pole number="2">
+        <Real minusError="0.00000" plusError="0.00000">-178.000</Real>
+        <Imaginary minusError="0.00000" plusError="0.00000">0.00000</Imaginary>
+       </Pole>
+       <Pole number="3">
+        <Real minusError="0.00000" plusError="0.00000">-135.000</Real>
+        <Imaginary minusError="0.00000" plusError="0.00000">-160.000</Imaginary>
+       </Pole>
+       <Pole number="4">
+        <Real minusError="0.00000" plusError="0.00000">-135.000</Real>
+        <Imaginary minusError="0.00000" plusError="0.00000">160.000</Imaginary>
+       </Pole>
+       <Pole number="5">
+        <Real minusError="0.00000" plusError="0.00000">-671.000</Real>
+        <Imaginary minusError="0.00000" plusError="0.00000">-1154.00</Imaginary>
+       </Pole>
+       <Pole number="6">
+        <Real minusError="0.00000" plusError="0.00000">-671.000</Real>
+        <Imaginary minusError="0.00000" plusError="0.00000">1154.00</Imaginary>
+       </Pole>
+      </PolesZeros>
+     </Stage>
+    </Response>
+   </Channel>
+  </Station>
+ </Network>
+</FDSNStationXML>
