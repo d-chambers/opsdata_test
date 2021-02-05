@@ -1,9 +1,14 @@
 <?xml version='1.0' encoding='utf-8'?>
-<q:quakeml xmlns:q="http://quakeml.org/xmlns/quakeml/1.2" xmlns="http://quakeml.org/xmlns/bed/1.2">
-  <eventParameters publicID="smi:local/d0a51b62-24bc-4bee-8a90-6d716df2ad76">
+<q:quakeml xmlns="http://quakeml.org/xmlns/bed/1.2" xmlns:q="http://quakeml.org/xmlns/quakeml/1.2">
+  <eventParameters publicID="smi:local/c842e453-c4d0-4359-a846-468930dfe5a4">
     <event publicID="smi:local/425fd29b-a5a2-4a8f-b54b-e38ddddccc40">
       <preferredOriginID>smi:local/02c88c16-e72c-43a2-b4a3-ec368f38d907</preferredOriginID>
       <preferredMagnitudeID>smi:local/2b36bb28-0586-4b41-8128-d2c70ea8046d</preferredMagnitudeID>
+      <creationInfo>
+        <agencyID>NIOSH</agencyID>
+        <author>DC</author>
+        <creationTime>2021-02-04T01:25:06.312632Z</creationTime>
+      </creationInfo>
       <origin publicID="smi:local/02c88c16-e72c-43a2-b4a3-ec368f38d907">
         <time>
           <value>2013-04-04T15:10:57.990000Z</value>
@@ -35,15 +40,6 @@
           <distance>0.7788125107256206</distance>
           <timeResidual>0.43</timeResidual>
           <timeWeight>1.0</timeWeight>
-        </arrival>
-        <arrival publicID="smi:local/59d79369-5ba8-439b-b393-dd19b0e1c18d">
-          <pickID>smi:local/d68f8c45-3379-4653-ac42-436d5d184fd6</pickID>
-          <phase>P</phase>
-          <timeCorrection>0.0</timeCorrection>
-          <azimuth>330.0</azimuth>
-          <distance>0.14928738658250928</distance>
-          <timeResidual>-0.3</timeResidual>
-          <timeWeight>0.5</timeWeight>
         </arrival>
         <arrival publicID="smi:local/85ec502c-0472-43a9-95d1-474066d08d8d">
           <pickID>smi:local/a88bc8d6-5c9f-4a63-92cc-246df11b8a23</pickID>
@@ -117,15 +113,6 @@
           <timeResidual>-0.1</timeResidual>
           <timeWeight>0.5</timeWeight>
         </arrival>
-        <arrival publicID="smi:local/b83128b7-9db2-4031-9b1f-f110b772bf28">
-          <pickID>smi:local/47465747-e432-41d0-b713-263519e8255d</pickID>
-          <phase>P</phase>
-          <timeCorrection>0.0</timeCorrection>
-          <azimuth>261.0</azimuth>
-          <distance>0.08723419577411685</distance>
-          <timeResidual>-0.14</timeResidual>
-          <timeWeight>1.0</timeWeight>
-        </arrival>
         <arrival publicID="smi:local/4dd613c3-bafc-45e0-adbe-ccb2fc549975">
           <pickID>smi:local/aa6d1479-e16b-4c63-b28b-e7d0bcb9ff94</pickID>
           <phase>P</phase>
@@ -151,15 +138,6 @@
           <azimuth>175.0</azimuth>
           <distance>0.577364470999825</distance>
           <timeResidual>0.05</timeResidual>
-          <timeWeight>1.0</timeWeight>
-        </arrival>
-        <arrival publicID="smi:local/5b35e8fd-3992-4d1d-84ba-bc3fc2d0b4d1">
-          <pickID>smi:local/866ee6dd-e661-4d8e-9049-a815223df2b3</pickID>
-          <phase>P</phase>
-          <timeCorrection>0.0</timeCorrection>
-          <azimuth>7.0</azimuth>
-          <distance>0.12410638161678482</distance>
-          <timeResidual>-0.05</timeResidual>
           <timeWeight>1.0</timeWeight>
         </arrival>
         <arrival publicID="smi:local/706fe851-92bd-4a00-9a50-af5367dd7f91">
@@ -274,7 +252,7 @@
           <value>2.41</value>
         </mag>
         <type>Md</type>
-        <waveformID channelCode="EHZ" locationCode="01" networkCode="UU" stationCode="CWU"></waveformID>
+        <waveformID networkCode="UU" stationCode="CWU" locationCode="01" channelCode="EHZ"></waveformID>
       </stationMagnitude>
       <stationMagnitude publicID="smi:local/7d7fa839-c2c4-4365-851c-094b0d23f03e">
         <originID>smi:local/02c88c16-e72c-43a2-b4a3-ec368f38d907</originID>
@@ -282,7 +260,7 @@
           <value>1.16</value>
         </mag>
         <type>Md</type>
-        <waveformID channelCode="EHZ" locationCode="01" networkCode="UU" stationCode="DAU"></waveformID>
+        <waveformID networkCode="UU" stationCode="DAU" locationCode="01" channelCode="EHZ"></waveformID>
       </stationMagnitude>
       <stationMagnitude publicID="smi:local/97f3ad69-527e-49b3-85c3-358e98a7c880">
         <originID>smi:local/02c88c16-e72c-43a2-b4a3-ec368f38d907</originID>
@@ -290,7 +268,7 @@
           <value>1.53</value>
         </mag>
         <type>Md</type>
-        <waveformID channelCode="EHZ" locationCode="01" networkCode="UU" stationCode="FSU"></waveformID>
+        <waveformID networkCode="UU" stationCode="FSU" locationCode="01" channelCode="EHZ"></waveformID>
       </stationMagnitude>
       <stationMagnitude publicID="smi:local/4854e6ad-2240-4a28-b40e-6c920d1320d9">
         <originID>smi:local/02c88c16-e72c-43a2-b4a3-ec368f38d907</originID>
@@ -298,7 +276,7 @@
           <value>1.33</value>
         </mag>
         <type>Md</type>
-        <waveformID channelCode="EHZ" locationCode="01" networkCode="UU" stationCode="MCU"></waveformID>
+        <waveformID networkCode="UU" stationCode="MCU" locationCode="01" channelCode="EHZ"></waveformID>
       </stationMagnitude>
       <stationMagnitude publicID="smi:local/bfeefd51-6d2c-47b7-8b9e-d41c97f6b819">
         <originID>smi:local/02c88c16-e72c-43a2-b4a3-ec368f38d907</originID>
@@ -306,7 +284,7 @@
           <value>1.12</value>
         </mag>
         <type>Md</type>
-        <waveformID channelCode="EHZ" locationCode="01" networkCode="UU" stationCode="NAIU"></waveformID>
+        <waveformID networkCode="UU" stationCode="NAIU" locationCode="01" channelCode="EHZ"></waveformID>
       </stationMagnitude>
       <stationMagnitude publicID="smi:local/2a19bfe4-a073-400c-924f-a2bb01e509f5">
         <originID>smi:local/02c88c16-e72c-43a2-b4a3-ec368f38d907</originID>
@@ -314,7 +292,7 @@
           <value>1.18</value>
         </mag>
         <type>Md</type>
-        <waveformID channelCode="EHZ" locationCode="01" networkCode="UU" stationCode="SAIU"></waveformID>
+        <waveformID networkCode="UU" stationCode="SAIU" locationCode="01" channelCode="EHZ"></waveformID>
       </stationMagnitude>
       <stationMagnitude publicID="smi:local/ab10b13d-8371-4a93-8775-fff502186de3">
         <originID>smi:local/02c88c16-e72c-43a2-b4a3-ec368f38d907</originID>
@@ -322,7 +300,7 @@
           <value>1.25</value>
         </mag>
         <type>Md</type>
-        <waveformID channelCode="EHZ" locationCode="02" networkCode="UU" stationCode="SNUT"></waveformID>
+        <waveformID networkCode="UU" stationCode="SNUT" locationCode="02" channelCode="EHZ"></waveformID>
       </stationMagnitude>
       <stationMagnitude publicID="smi:local/f44742f3-00b4-4c9b-a6d0-5fe5c41eaa92">
         <originID>smi:local/02c88c16-e72c-43a2-b4a3-ec368f38d907</originID>
@@ -330,7 +308,7 @@
           <value>2.33</value>
         </mag>
         <type>Md</type>
-        <waveformID channelCode="EHZ" locationCode="01" networkCode="UU" stationCode="WTU"></waveformID>
+        <waveformID networkCode="UU" stationCode="WTU" locationCode="01" channelCode="EHZ"></waveformID>
       </stationMagnitude>
       <stationMagnitude publicID="smi:local/f1a6e4e5-43bf-4c58-9d3a-e16eb67379ee">
         <originID>smi:local/02c88c16-e72c-43a2-b4a3-ec368f38d907</originID>
@@ -338,7 +316,7 @@
           <value>1.19</value>
         </mag>
         <type>ML</type>
-        <waveformID channelCode="HHN" locationCode="01" networkCode="UU" stationCode="NOQ"></waveformID>
+        <waveformID networkCode="UU" stationCode="NOQ" locationCode="01" channelCode="HHN"></waveformID>
       </stationMagnitude>
       <stationMagnitude publicID="smi:local/f273684d-9ac3-48d5-a410-298efc3daceb">
         <originID>smi:local/02c88c16-e72c-43a2-b4a3-ec368f38d907</originID>
@@ -346,7 +324,7 @@
           <value>1.19</value>
         </mag>
         <type>ML</type>
-        <waveformID channelCode="HHE" locationCode="01" networkCode="UU" stationCode="NOQ"></waveformID>
+        <waveformID networkCode="UU" stationCode="NOQ" locationCode="01" channelCode="HHE"></waveformID>
       </stationMagnitude>
       <stationMagnitude publicID="smi:local/89b76541-5205-4743-b878-6315f4128a2b">
         <originID>smi:local/02c88c16-e72c-43a2-b4a3-ec368f38d907</originID>
@@ -354,7 +332,7 @@
           <value>1.04</value>
         </mag>
         <type>ML</type>
-        <waveformID channelCode="HHN" locationCode="01" networkCode="UU" stationCode="CTU"></waveformID>
+        <waveformID networkCode="UU" stationCode="CTU" locationCode="01" channelCode="HHN"></waveformID>
       </stationMagnitude>
       <stationMagnitude publicID="smi:local/68c89ee5-33f7-4a1d-b06c-cb06ddf6278f">
         <originID>smi:local/02c88c16-e72c-43a2-b4a3-ec368f38d907</originID>
@@ -362,7 +340,7 @@
           <value>1.04</value>
         </mag>
         <type>ML</type>
-        <waveformID channelCode="HHE" locationCode="01" networkCode="UU" stationCode="CTU"></waveformID>
+        <waveformID networkCode="UU" stationCode="CTU" locationCode="01" channelCode="HHE"></waveformID>
       </stationMagnitude>
       <stationMagnitude publicID="smi:local/62bc0968-817a-402e-adb4-186f6a90cf49">
         <originID>smi:local/02c88c16-e72c-43a2-b4a3-ec368f38d907</originID>
@@ -370,7 +348,7 @@
           <value>1.44</value>
         </mag>
         <type>ML</type>
-        <waveformID channelCode="HHN" locationCode="01" networkCode="UU" stationCode="NLU"></waveformID>
+        <waveformID networkCode="UU" stationCode="NLU" locationCode="01" channelCode="HHN"></waveformID>
       </stationMagnitude>
       <stationMagnitude publicID="smi:local/3991a7db-60c1-4f91-8cdb-e3101221fdf7">
         <originID>smi:local/02c88c16-e72c-43a2-b4a3-ec368f38d907</originID>
@@ -378,7 +356,7 @@
           <value>1.44</value>
         </mag>
         <type>ML</type>
-        <waveformID channelCode="HHE" locationCode="01" networkCode="UU" stationCode="NLU"></waveformID>
+        <waveformID networkCode="UU" stationCode="NLU" locationCode="01" channelCode="HHE"></waveformID>
       </stationMagnitude>
       <stationMagnitude publicID="smi:local/e9ab807f-feb3-4632-94c0-3826cb2560d5">
         <originID>smi:local/02c88c16-e72c-43a2-b4a3-ec368f38d907</originID>
@@ -386,7 +364,7 @@
           <value>1.37</value>
         </mag>
         <type>ML</type>
-        <waveformID channelCode="HHN" locationCode="01" networkCode="UU" stationCode="TCU"></waveformID>
+        <waveformID networkCode="UU" stationCode="TCU" locationCode="01" channelCode="HHN"></waveformID>
       </stationMagnitude>
       <stationMagnitude publicID="smi:local/4ca44de4-cf2f-4013-8782-6db614855150">
         <originID>smi:local/02c88c16-e72c-43a2-b4a3-ec368f38d907</originID>
@@ -394,152 +372,326 @@
           <value>1.37</value>
         </mag>
         <type>ML</type>
-        <waveformID channelCode="HHE" locationCode="01" networkCode="UU" stationCode="TCU"></waveformID>
+        <waveformID networkCode="UU" stationCode="TCU" locationCode="01" channelCode="HHE"></waveformID>
       </stationMagnitude>
       <pick publicID="smi:local/7d0dc598-4fa6-4493-81a2-55e00f809d33">
         <time>
           <value>2013-04-04T15:11:13.550000Z</value>
         </time>
-        <waveformID channelCode="HHZ" locationCode="01" networkCode="UU" stationCode="BGU"></waveformID>
+        <waveformID networkCode="UU" stationCode="BGU" locationCode="01" channelCode="HHZ"></waveformID>
+        <methodID>smi:local/spick_0.0.0</methodID>
         <onset>impulsive</onset>
         <phaseHint>P</phaseHint>
-      </pick>
-      <pick publicID="smi:local/d68f8c45-3379-4653-ac42-436d5d184fd6">
-        <time>
-          <value>2013-04-04T15:11:00.920000Z</value>
-        </time>
-        <waveformID channelCode="ENZ" locationCode="01" networkCode="UU" stationCode="COY"></waveformID>
-        <onset>emergent</onset>
-        <phaseHint>P</phaseHint>
+        <evaluationStatus>reviewed</evaluationStatus>
+        <creationInfo>
+          <agencyID>NIOSH</agencyID>
+          <creationTime>2021-02-04T01:25:06.311690Z</creationTime>
+        </creationInfo>
       </pick>
       <pick publicID="smi:local/a88bc8d6-5c9f-4a63-92cc-246df11b8a23">
         <time>
           <value>2013-04-04T15:11:05.050000Z</value>
         </time>
-        <waveformID channelCode="HHZ" locationCode="01" networkCode="UU" stationCode="CTU"></waveformID>
+        <waveformID networkCode="UU" stationCode="CTU" locationCode="01" channelCode="HHZ"></waveformID>
+        <methodID>smi:local/spick_0.0.0</methodID>
         <onset>emergent</onset>
         <phaseHint>P</phaseHint>
+        <evaluationStatus>reviewed</evaluationStatus>
+        <creationInfo>
+          <agencyID>NIOSH</agencyID>
+          <creationTime>2021-02-04T01:25:06.308988Z</creationTime>
+        </creationInfo>
       </pick>
       <pick publicID="smi:local/5371148f-0d38-409b-9a26-738cc33dc60c">
         <time>
           <value>2013-04-04T15:11:00.050000Z</value>
         </time>
-        <waveformID channelCode="EHZ" locationCode="01" networkCode="UU" stationCode="CWU"></waveformID>
+        <waveformID networkCode="UU" stationCode="CWU" locationCode="01" channelCode="EHZ"></waveformID>
+        <methodID>smi:local/spick_0.0.0</methodID>
         <onset>impulsive</onset>
         <phaseHint>P</phaseHint>
+        <evaluationStatus>reviewed</evaluationStatus>
+        <creationInfo>
+          <agencyID>NIOSH</agencyID>
+          <creationTime>2021-02-04T01:25:06.311499Z</creationTime>
+        </creationInfo>
       </pick>
       <pick publicID="smi:local/e2549493-cef1-43f9-8980-417d3ecbca57">
         <time>
           <value>2013-04-04T15:11:11.810000Z</value>
         </time>
-        <waveformID channelCode="EHZ" locationCode="01" networkCode="UU" stationCode="DAU"></waveformID>
+        <waveformID networkCode="UU" stationCode="DAU" locationCode="01" channelCode="EHZ"></waveformID>
+        <methodID>smi:local/spick_0.0.0</methodID>
         <onset>emergent</onset>
         <phaseHint>P</phaseHint>
+        <evaluationStatus>reviewed</evaluationStatus>
+        <creationInfo>
+          <agencyID>NIOSH</agencyID>
+          <creationTime>2021-02-04T01:25:06.311959Z</creationTime>
+        </creationInfo>
       </pick>
       <pick publicID="smi:local/7e4af285-40bb-4559-aa3f-e1abe39eafa7">
         <time>
           <value>2013-04-04T15:11:22.050000Z</value>
         </time>
-        <waveformID channelCode="EHZ" locationCode="01" networkCode="UU" stationCode="FSU"></waveformID>
+        <waveformID networkCode="UU" stationCode="FSU" locationCode="01" channelCode="EHZ"></waveformID>
+        <methodID>smi:local/spick_0.0.0</methodID>
         <onset>emergent</onset>
         <phaseHint>P</phaseHint>
+        <evaluationStatus>reviewed</evaluationStatus>
+        <creationInfo>
+          <agencyID>NIOSH</agencyID>
+          <creationTime>2021-02-04T01:25:06.311870Z</creationTime>
+        </creationInfo>
       </pick>
       <pick publicID="smi:local/aa2f699c-81c1-4677-88d9-0e7d0c3438cd">
         <time>
           <value>2013-04-04T15:11:03.700000Z</value>
         </time>
-        <waveformID channelCode="EHZ" locationCode="01" networkCode="UU" stationCode="GMU"></waveformID>
+        <waveformID networkCode="UU" stationCode="GMU" locationCode="01" channelCode="EHZ"></waveformID>
+        <methodID>smi:local/spick_0.0.0</methodID>
         <onset>emergent</onset>
         <phaseHint>P</phaseHint>
+        <evaluationStatus>reviewed</evaluationStatus>
+        <creationInfo>
+          <agencyID>NIOSH</agencyID>
+          <creationTime>2021-02-04T01:25:06.310894Z</creationTime>
+        </creationInfo>
       </pick>
       <pick publicID="smi:local/daaeee8f-b936-4284-8287-50af813b63d7">
         <time>
           <value>2013-04-04T15:11:15.550000Z</value>
         </time>
-        <waveformID channelCode="EHZ" locationCode="01" networkCode="UU" stationCode="GZU"></waveformID>
+        <waveformID networkCode="UU" stationCode="GZU" locationCode="01" channelCode="EHZ"></waveformID>
+        <methodID>smi:local/spick_0.0.0</methodID>
         <onset>impulsive</onset>
         <phaseHint>P</phaseHint>
+        <evaluationStatus>reviewed</evaluationStatus>
+        <creationInfo>
+          <agencyID>NIOSH</agencyID>
+          <creationTime>2021-02-04T01:25:06.311780Z</creationTime>
+        </creationInfo>
       </pick>
       <pick publicID="smi:local/f03d3c24-9383-47ff-9620-0d545a0d59f8">
         <time>
           <value>2013-04-04T15:11:18.690000Z</value>
         </time>
-        <waveformID channelCode="EHZ" locationCode="01" networkCode="UU" stationCode="LTU"></waveformID>
+        <waveformID networkCode="UU" stationCode="LTU" locationCode="01" channelCode="EHZ"></waveformID>
+        <methodID>smi:local/spick_0.0.0</methodID>
         <onset>emergent</onset>
         <phaseHint>P</phaseHint>
+        <evaluationStatus>reviewed</evaluationStatus>
+        <creationInfo>
+          <agencyID>NIOSH</agencyID>
+          <creationTime>2021-02-04T01:25:06.309084Z</creationTime>
+        </creationInfo>
       </pick>
       <pick publicID="smi:local/2754e074-0fc4-4c4d-8580-f437a1b68b2f">
         <time>
           <value>2013-04-04T15:11:18.300000Z</value>
         </time>
-        <waveformID channelCode="EHZ" locationCode="01" networkCode="UU" stationCode="MCU"></waveformID>
+        <waveformID networkCode="UU" stationCode="MCU" locationCode="01" channelCode="EHZ"></waveformID>
+        <methodID>smi:local/spick_0.0.0</methodID>
         <onset>emergent</onset>
         <phaseHint>P</phaseHint>
-      </pick>
-      <pick publicID="smi:local/47465747-e432-41d0-b713-263519e8255d">
-        <time>
-          <value>2013-04-04T15:10:59.950000Z</value>
-        </time>
-        <waveformID channelCode="ENZ" locationCode="01" networkCode="UU" stationCode="MID"></waveformID>
-        <onset>impulsive</onset>
-        <phaseHint>P</phaseHint>
+        <evaluationStatus>reviewed</evaluationStatus>
+        <creationInfo>
+          <agencyID>NIOSH</agencyID>
+          <creationTime>2021-02-04T01:25:06.308745Z</creationTime>
+        </creationInfo>
       </pick>
       <pick publicID="smi:local/aa6d1479-e16b-4c63-b28b-e7d0bcb9ff94">
         <time>
           <value>2013-04-04T15:11:10.940000Z</value>
         </time>
-        <waveformID channelCode="HHZ" locationCode="01" networkCode="UU" stationCode="MPU"></waveformID>
+        <waveformID networkCode="UU" stationCode="MPU" locationCode="01" channelCode="HHZ"></waveformID>
+        <methodID>smi:local/spick_0.0.0</methodID>
         <onset>emergent</onset>
         <phaseHint>P</phaseHint>
+        <evaluationStatus>reviewed</evaluationStatus>
+        <creationInfo>
+          <agencyID>NIOSH</agencyID>
+          <creationTime>2021-02-04T01:25:06.312539Z</creationTime>
+        </creationInfo>
       </pick>
       <pick publicID="smi:local/7cf6f3d5-3ba0-4205-9ceb-728ffb5521ee">
         <time>
           <value>2013-04-04T15:11:07.580000Z</value>
         </time>
-        <waveformID channelCode="EHZ" locationCode="01" networkCode="UU" stationCode="NAIU"></waveformID>
+        <waveformID networkCode="UU" stationCode="NAIU" locationCode="01" channelCode="EHZ"></waveformID>
+        <methodID>smi:local/spick_0.0.0</methodID>
         <onset>impulsive</onset>
         <phaseHint>P</phaseHint>
+        <evaluationStatus>reviewed</evaluationStatus>
+        <creationInfo>
+          <agencyID>NIOSH</agencyID>
+          <creationTime>2021-02-04T01:25:06.312135Z</creationTime>
+        </creationInfo>
       </pick>
       <pick publicID="smi:local/0df5a0bc-0081-4534-a1ad-ce24b955d048">
         <time>
           <value>2013-04-04T15:11:09.430000Z</value>
         </time>
-        <waveformID channelCode="HHZ" locationCode="01" networkCode="UU" stationCode="NLU"></waveformID>
+        <waveformID networkCode="UU" stationCode="NLU" locationCode="01" channelCode="HHZ"></waveformID>
+        <methodID>smi:local/spick_0.0.0</methodID>
         <onset>impulsive</onset>
         <phaseHint>P</phaseHint>
-      </pick>
-      <pick publicID="smi:local/866ee6dd-e661-4d8e-9049-a815223df2b3">
-        <time>
-          <value>2013-04-04T15:11:00.700000Z</value>
-        </time>
-        <waveformID channelCode="HHZ" locationCode="01" networkCode="UU" stationCode="NOQ"></waveformID>
-        <onset>impulsive</onset>
-        <phaseHint>P</phaseHint>
+        <evaluationStatus>reviewed</evaluationStatus>
+        <creationInfo>
+          <agencyID>NIOSH</agencyID>
+          <creationTime>2021-02-04T01:25:06.312048Z</creationTime>
+        </creationInfo>
       </pick>
       <pick publicID="smi:local/bddd039e-ef20-4673-bf73-30c0995cef04">
         <time>
           <value>2013-04-04T15:11:04.490000Z</value>
         </time>
-        <waveformID channelCode="EHZ" locationCode="01" networkCode="UU" stationCode="SAIU"></waveformID>
+        <waveformID networkCode="UU" stationCode="SAIU" locationCode="01" channelCode="EHZ"></waveformID>
+        <methodID>smi:local/spick_0.0.0</methodID>
         <onset>impulsive</onset>
         <phaseHint>P</phaseHint>
+        <evaluationStatus>reviewed</evaluationStatus>
+        <creationInfo>
+          <agencyID>NIOSH</agencyID>
+          <creationTime>2021-02-04T01:25:06.311597Z</creationTime>
+        </creationInfo>
       </pick>
       <pick publicID="smi:local/e0d53624-ff4c-4d5c-ac9f-7a39d717d343">
         <time>
           <value>2013-04-04T15:11:07.320000Z</value>
         </time>
-        <waveformID channelCode="EHZ" locationCode="02" networkCode="UU" stationCode="SNUT"></waveformID>
+        <waveformID networkCode="UU" stationCode="SNUT" locationCode="02" channelCode="EHZ"></waveformID>
+        <methodID>smi:local/spick_0.0.0</methodID>
         <onset>emergent</onset>
         <phaseHint>P</phaseHint>
+        <evaluationStatus>reviewed</evaluationStatus>
+        <creationInfo>
+          <agencyID>NIOSH</agencyID>
+          <creationTime>2021-02-04T01:25:06.311372Z</creationTime>
+        </creationInfo>
       </pick>
       <pick publicID="smi:local/1ade75ab-bd00-4dd8-9b7c-470eb17eab50">
         <time>
           <value>2013-04-04T15:11:01.920000Z</value>
         </time>
-        <waveformID channelCode="EHZ" locationCode="01" networkCode="UU" stationCode="WTU"></waveformID>
+        <waveformID networkCode="UU" stationCode="WTU" locationCode="01" channelCode="EHZ"></waveformID>
+        <methodID>smi:local/spick_0.0.0</methodID>
         <onset>impulsive</onset>
         <phaseHint>P</phaseHint>
+        <evaluationStatus>reviewed</evaluationStatus>
+        <creationInfo>
+          <agencyID>NIOSH</agencyID>
+          <creationTime>2021-02-04T01:25:06.308886Z</creationTime>
+        </creationInfo>
       </pick>
+      <pick publicID="smi:local/8247e1f0-3ce0-4ab4-b38e-7e9e649b7e30">
+        <time>
+          <value>2013-04-04T15:10:59.977562Z</value>
+          <uncertainty>0.00988149642944336</uncertainty>
+        </time>
+        <waveformID networkCode="UU" stationCode="MID" locationCode="01" channelCode="ENZ"></waveformID>
+        <methodID>smi:local/spick_0.0.0</methodID>
+        <onset>impulsive</onset>
+        <phaseHint>P</phaseHint>
+        <polarity>negative</polarity>
+        <evaluationMode>manual</evaluationMode>
+        <evaluationStatus>reviewed</evaluationStatus>
+        <creationInfo>
+          <agencyID>NIOSH</agencyID>
+          <author>DC</author>
+          <creationTime>2021-02-04T01:25:06.310551Z</creationTime>
+        </creationInfo>
+      </pick>
+      <pick publicID="smi:local/73404da9-0bff-45b9-8321-81a19457b31a">
+        <time>
+          <value>2013-04-04T15:11:00.687014Z</value>
+          <uncertainty>0.008734941482543945</uncertainty>
+        </time>
+        <waveformID networkCode="UU" stationCode="NOQ" locationCode="01" channelCode="HHZ"></waveformID>
+        <methodID>smi:local/spick_0.0.0</methodID>
+        <onset>impulsive</onset>
+        <phaseHint>P</phaseHint>
+        <polarity>positive</polarity>
+        <evaluationMode>manual</evaluationMode>
+        <evaluationStatus>reviewed</evaluationStatus>
+        <creationInfo>
+          <agencyID>NIOSH</agencyID>
+          <author>DC</author>
+          <creationTime>2021-02-04T01:25:06.311081Z</creationTime>
+        </creationInfo>
+      </pick>
+      <pick publicID="smi:local/d8f8f227-0e81-4701-8b6f-34d6a1197484">
+        <time>
+          <value>2013-04-04T15:11:00.883029Z</value>
+          <uncertainty>0.014768600463867188</uncertainty>
+        </time>
+        <waveformID networkCode="UU" stationCode="COY" locationCode="01" channelCode="ENZ"></waveformID>
+        <methodID>smi:local/spick_0.0.0</methodID>
+        <onset>emergent</onset>
+        <phaseHint>P</phaseHint>
+        <polarity>negative</polarity>
+        <evaluationMode>manual</evaluationMode>
+        <evaluationStatus>reviewed</evaluationStatus>
+        <creationInfo>
+          <agencyID>NIOSH</agencyID>
+          <author>DC</author>
+          <creationTime>2021-02-04T01:25:06.312289Z</creationTime>
+        </creationInfo>
+      </pick>
+      <amplitude publicID="smi:local/b8d8be1a-9ca1-4c86-80c2-b6b39dc6cefa">
+        <genericAmplitude/>
+        <type>P</type>
+        <methodID>smi:local/spick_0.0.0</methodID>
+        <timeWindow>
+          <reference>2013-04-04T15:10:59.977562Z</reference>
+          <begin>0.0</begin>
+          <end>0.23154377937316895</end>
+        </timeWindow>
+        <pickID>smi:local/8247e1f0-3ce0-4ab4-b38e-7e9e649b7e30</pickID>
+        <evaluationMode>manual</evaluationMode>
+        <evaluationStatus>reviewed</evaluationStatus>
+        <creationInfo>
+          <agencyID>NIOSH</agencyID>
+          <author>DC</author>
+          <creationTime>2021-02-04T01:25:06.310745Z</creationTime>
+        </creationInfo>
+      </amplitude>
+      <amplitude publicID="smi:local/ffd8ceeb-2ab6-4998-b8eb-e3dd599ec691">
+        <genericAmplitude/>
+        <type>P</type>
+        <methodID>smi:local/spick_0.0.0</methodID>
+        <timeWindow>
+          <reference>2013-04-04T15:11:00.687014Z</reference>
+          <begin>0.0</begin>
+          <end>0.2463221549987793</end>
+        </timeWindow>
+        <pickID>smi:local/73404da9-0bff-45b9-8321-81a19457b31a</pickID>
+        <evaluationMode>manual</evaluationMode>
+        <evaluationStatus>reviewed</evaluationStatus>
+        <creationInfo>
+          <agencyID>NIOSH</agencyID>
+          <author>DC</author>
+          <creationTime>2021-02-04T01:25:06.311231Z</creationTime>
+        </creationInfo>
+      </amplitude>
+      <amplitude publicID="smi:local/1dca9c86-cd04-412f-bc37-c6338fc2de6e">
+        <genericAmplitude/>
+        <type>P</type>
+        <methodID>smi:local/spick_0.0.0</methodID>
+        <timeWindow>
+          <reference>2013-04-04T15:11:00.883029Z</reference>
+          <begin>0.0</begin>
+          <end>0.21168184280395508</end>
+        </timeWindow>
+        <pickID>smi:local/d8f8f227-0e81-4701-8b6f-34d6a1197484</pickID>
+        <evaluationMode>manual</evaluationMode>
+        <evaluationStatus>reviewed</evaluationStatus>
+        <creationInfo>
+          <agencyID>NIOSH</agencyID>
+          <author>DC</author>
+          <creationTime>2021-02-04T01:25:06.312418Z</creationTime>
+        </creationInfo>
+      </amplitude>
     </event>
   </eventParameters>
 </q:quakeml>
